@@ -1,0 +1,113 @@
+﻿
+@{
+    ViewBag.PageTitle = "TARJA AEP";
+    ViewBag.Title = "Naves";
+    ViewBag.TitleIcon = "icon-note";
+    ViewBag.Subtitle = "";
+    ViewBag.ActiveMenu = "Naves";
+
+}
+
+@section CustomStylesFiles {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/select2/select2.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css")" />
+}
+
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="portlet light bordered">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class="icon-magnifier font-grey-gallery"></i>
+                        <span class="caption-subject bold font-grey-gallery uppercase font-sm">
+                            Maestro de Naves
+                        </span>
+                    </div>
+                </div>
+                <table class="table table-striped table-hover table-bordered dataTable no-footer" id="tbNaves">
+                    <thead>
+                        <tr class="bg-blue-steel">
+                            <th></th>
+                            <th></th>
+                            <th>CODIGO</th>
+                            <th>NOMBRE</th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <a class="btn default" data-toggle="modal" href="#modalNaves">Agregar Nave </a>
+        </div>
+    </div>
+</div>
+
+@*Modal Agregar*@
+<div id="modalNaves" class="modal fade" tabindex="-1" aria-hidden="true" style="display: none;" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Nave</h4>
+            </div>
+            <div class="modal-body">
+                <div class="scroller" data-always-visible="1" data-rail-visible1="1" data-initialized="1">
+                    <div class="form-body">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="control-label">
+                                        CODIGO
+                                    </label>
+                                    @Html.Editor("txtCodigo", new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="form-group">
+                                    <label class="control-label">
+                                        NOMBRE
+                                    </label>
+                                    @Html.Editor("txtNombre", new { htmlAttributes = new { @class = "form-control" } })
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <a class="btn blue" onclick="guardarNave();" id="guardarNave">Guardar </a>
+                    <a class="btn blue" onclick="editarNave();" id="editarNave" style="display:none;">Guardar </a>
+                    <button type="button" data-dismiss="modal" class="btn red default"><i class="fa fa-times"></i>Cancelar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section CustomScriptsFiles {
+    <!-- Metronic -->
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/select2/select2.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/datatables/media/js/jquery.dataTables.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.js")"></script>
+    <!-- Custom -->
+    @Scripts.Render("~/bundles/Naves")
+}
+
+@section CustomScriptsInit {
+    <script>
+        $(document).ready(function () {
+            Naves.init();
+        });
+    </script>
+}

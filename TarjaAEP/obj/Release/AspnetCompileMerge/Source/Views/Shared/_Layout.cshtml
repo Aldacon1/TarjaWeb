@@ -1,0 +1,298 @@
+﻿@using TarjaAEP.Tools
+@{
+    var usuario = Singleton.RepositoryUsers.Find(u => u.RutUsuario == User.Identity.Name);
+}
+<!DOCTYPE html>
+<!--
+Template Name: Saam Extraportuarios Responsive Layout
+Version: 1.0
+Author: Franco Caamaño
+Contact:
+License: Saam Extraportuarios use only
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>@ViewBag.PageTitle</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="Saam Extraportuarios" name="description" />
+    <meta content="Franco Caamaño" name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/custom/plugins/open-sans/open-sans.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/custom/plugins/font-awesome/css/font-awesome.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/custom/plugins/simple-line-icons/simple-line-icons.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/bootstrap/css/bootstrap.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/uniform/css/uniform.default.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css")" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/css/components-rounded.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/css/plugins.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/admin/layout/css/layout.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/admin/layout/css/themes/darkblue.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/admin/layout/css/custom.css")" />
+    <!-- END THEME STYLES -->
+    <!-- BEGIN CUSTOM STYLES -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/bootstrap-toastr/toastr.min.css")" />
+    @RenderSection("CustomStylesFiles", false)
+    <!-- END CUSTOM STYLES -->
+    <link rel="shortcut icon" href="@Url.Content("~/assets/favicon.ico")" type="image/x-icon" />
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="page-header-fixed">
+    <input type="hidden" value="@System.Configuration.ConfigurationManager.AppSettings["ambiente"]" id="hdnAmbiente" />
+    <!-- BEGIN HEADER -->
+    <div class="page-header navbar navbar-fixed-top">
+        <!-- BEGIN HEADER INNER -->
+        <div class="page-header-inner">
+            <!-- BEGIN LOGO -->
+            <div class="page-logo">
+                <a href="@Url.Content("Home/")">
+                    <img src="@Url.Content("~/assets/custom/images/logo.png")" alt="logo" class="logo-default" height="20" />
+                </a>
+                <div class="menu-toggler sidebar-toggler"></div>
+            </div>
+            <!-- END LOGO -->
+            <!-- BEGIN RESPONSIVE MENU TOGGLER -->
+            <a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+            </a>
+            <!-- END RESPONSIVE MENU TOGGLER -->
+            <!-- BEGIN TOP NAVIGATION MENU -->
+            <div class="top-menu">
+                <ul class="nav navbar-nav pull-right">
+                    <!-- BEGIN USER LOGIN DROPDOWN -->
+                    <li class="dropdown dropdown-user">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                            <b>
+                                <span class="username" style="color: #4b77be !important;">
+                                    @usuario.NomUsuario (@usuario.RutUsuario-@usuario.DvUsuario) / @usuario.FuncionUsuario / @usuario.DesTerminal
+                                </span>
+                            </b>
+                            <i class="fa fa-angle-down"></i>
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-default">
+                            <li>
+                                <a href="@Url.Content("~/Session/CerrarSession")">
+                                    <i class="icon-logout"></i> Cerrar Sesión
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!-- END USER LOGIN DROPDOWN -->
+                    <!-- BEGIN QUICK SIDEBAR TOGGLER -->
+                    <!-- DOC: Apply "dropdown-dark" class after below "dropdown-extended" to change the dropdown styte -->
+                    <li class="dropdown dropdown-quick-sidebar-toggler">
+                        <a href="@Url.Content("~/Session/CerrarSession")" class="dropdown-toggle">
+                            <i class="icon-logout"></i>
+                        </a>
+                    </li>
+                    <!-- END QUICK SIDEBAR TOGGLER -->
+                </ul>
+            </div>
+            <!-- END TOP NAVIGATION MENU -->
+        </div>
+        <!-- END HEADER INNER -->
+    </div>
+    <!-- END HEADER -->
+    <div class="clearfix"></div>
+    <!-- BEGIN CONTAINER -->
+    <div class="page-container">
+        <!-- BEGIN SIDEBAR -->
+        <div class="page-sidebar-wrapper">
+            <div class="page-sidebar navbar-collapse collapse">
+                <!-- BEGIN SIDEBAR MENU -->
+                <ul class="page-sidebar-menu" data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+                    @if (!ViewBag.ActiveMenu.Equals("Cliente"))
+                    {
+                        <li class="start @if (ViewBag.ActiveMenu.Equals("Home")) { Write("active"); }">
+                            <a class="aMenuLink" href="@Url.Content("~/Home/Principal")">
+                                <i class="icon-note"></i>
+                                <span class="title">Principal</span>
+                            </a>
+                        </li>
+                        <li class="@if (ViewBag.ActiveMenu.Equals("Desconsolidado")) { Write("active"); }">
+                            <a class="aMenuLink" href="@Url.Content("~/Desconsolidado/Index")">
+                                <i class=icon-logout></i>
+                                <span class="title">Desconsolidado</span>
+                            </a>
+                        </li>
+                        <li class="@if (ViewBag.ActiveMenu.Equals("Consolidado")) { Write("active"); }">
+                            <a class="aMenuLink" href="@Url.Content("~/Consolidado/Index")">
+                                <i class=icon-logout></i>
+                                <span class="title">Consolidado</span>
+                            </a>
+                        </li>
+                        <li class="@if (ViewBag.ActiveMenu.Equals("Despacho")) { Write("active"); }">
+                            <a class="aMenuLink" href="@Url.Content("~/Despacho/Index")">
+                                <i class=icon-logout></i>
+                                <span class="title">Despacho</span>
+                            </a>
+                        </li>
+                        if (usuario.FuncionUsuario.Equals("SuperAdmin"))
+                        {
+                            <li>
+                                <a href="javascript:;">
+                                    <i class="icon-wrench"></i>
+                                    <span class="title">Mantenedores</span>
+                                    <span class="arrow"></span>
+                                </a>
+                                <ul class="sub-menu">
+                                    <li class="@if (ViewBag.ActiveMenu.Equals("Bultos")) { Write("active"); }">
+                                        <a class="aMenuLink" href="@Url.Content("~/Mantenedores/Bultos")">
+                                            Bultos
+                                        </a>
+                                    </li>
+                                    <li class="@if (ViewBag.ActiveMenu.Equals("Clientes")) { Write("active"); }">
+                                        <a class="aMenuLink" href="@Url.Content("~/Mantenedores/Clientes")">
+                                            Clientes
+                                        </a>
+                                    </li>
+                                    <li class="@if (ViewBag.ActiveMenu.Equals("Naves")) { Write("active"); }">
+                                        <a class="aMenuLink" href="@Url.Content("~/Mantenedores/Naves")">
+                                            Naves
+                                        </a>
+                                    </li>
+                                    <li class="@if (ViewBag.ActiveMenu.Equals("Personas")) { Write("active"); }">
+                                        <a class="aMenuLink" href="@Url.Content("~/Mantenedores/Personas")">
+                                            Personas
+                                        </a>
+                                    </li>
+                                    <li class="@if (ViewBag.ActiveMenu.Equals("Terminales")) { Write("active"); }">
+                                        <a class="aMenuLink" href="@Url.Content("~/Mantenedores/Terminales")">
+                                            Terminales
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        }
+                    }
+                    else
+                    {
+                        <li class="start @if (ViewBag.ActiveMenu.Equals("Cliente")) { Write("active"); }">
+                            <a class="aMenuLink" href="@Url.Content("~/Cliente/Principal")">
+                                <i class="icon-note"></i>
+                                <span class="title">Principal</span>
+                            </a>
+                        </li>
+                    }
+                </ul>
+                <!-- END SIDEBAR MENU -->
+            </div>
+        </div>
+        <!-- END SIDEBAR -->
+        <!-- BEGIN CONTENT -->
+        <div class="page-content-wrapper">
+            <div class="page-content">
+                <!-- BEGIN PAGE CONTENT-->
+                <!-- BEGIN PRINCIPAL PORTLET-->
+                <div class="portlet light bordered">
+                    <div class="portlet-title">
+                        <div class="caption font-blue-steel">
+                            <i class="@ViewBag.TitleIcon font-blue-steel"></i>
+                            <span class="caption-subject theme-font bold uppercase">@ViewBag.Title</span>
+                            <span class="caption-helper">@ViewBag.Subtitle</span>
+                        </div>
+                        <div class="actions">
+                            <span id="SpnLoading" class="display-hide"><img src="@Url.Content("~/assets/custom/images/loading.gif")" height="25" alt="" /></span>
+                            <a class="btn btn-circle btn-icon-only btn-default fullscreen" href="#" data-original-title="" title="Pantalla Completa">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="portlet-body">
+                        <div class="row">
+                            @RenderBody()
+                        </div>
+                    </div>
+                </div>
+                <!-- END PRINCIPAL PORTLET-->
+                <!-- END PAGE CONTENT-->
+            </div>
+        </div>
+        <!-- END CONTENT -->
+    </div>
+    <!-- END CONTAINER -->
+    <!-- BEGIN FOOTER -->
+    <div class="page-footer">
+        <div class="page-footer-inner col-md-12">
+            <span class="pull-left">@DateTime.Now.Year TARJA AEP &copy; SAAM EXTRAPORTUARIOS S.A.</span>
+            <span class="pull-right">
+                @{
+                    var actionName = HttpContext.Current.Request.RequestContext.RouteData.Values["Action"].ToString();
+                    var controllerName = HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"].ToString();
+                }
+                @string.Concat(controllerName, "/", actionName)
+                &nbsp;
+            </span>
+        </div>
+        <div class="scroll-to-top">
+            <i class="icon-arrow-up"></i>
+        </div>
+    </div>
+    <!-- END FOOTER -->
+    <!-- BEGIN JAVASCRIPTS -->
+    <!-- BEGIN CORE PLUGINS -->
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/respond.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/custom/scripts/jquery-2.1.3.min.js")"></script>
+    <!-- IMPORTANT! Load jquery-ui-1.10.3.custom.min.js before bootstrap.min.js to fix bootstrap tooltip conflict with jquery ui tooltip -->
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/jquery-ui/jquery-ui.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/bootstrap/js/bootstrap.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/uniform/jquery.uniform.min.js")"></script>
+    <!-- END CORE PLUGINS -->
+    <script type="text/javascript" src="@Url.Content("~/assets/global/scripts/metronic.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/admin/layout/scripts/layout.js")"></script>
+    <!-- BEGIN CUSTOM PLUGINS -->
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/bootstrap-toastr/toastr.min.js")"></script>
+    <!-- END CUSTOM PLUGINS -->
+    <!-- BEGIN SAAM PLUGINS -->
+    <script type="text/javascript" src="@Url.Content("~/assets/custom/scripts/Tools.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/custom/scripts/SessionControl.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/custom/scripts/Toastr.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/custom/scripts/fileinput.min.js")"></script>
+    @Scripts.Render("~/bundles/tarjaAEP")
+    <!-- END SAAM PLUGINS -->
+    @RenderSection("CustomScriptsFiles", false)
+    @RenderSection("CustomScriptsInit", false)
+    <!-- BEGIN NOTIFICATION SHOWING -->
+    @{
+        if (Session["Global:Toastr:Message"] != null && Session["Global:Toastr:Title"] != null && Session["Global:Toastr:Type"] != null)
+        {
+            var type = (Singleton.ToastrType)Session["Global:Toastr:Type"];
+            var title = Session["Global:Toastr:Title"].ToString();
+            var message = Session["Global:Toastr:Message"].ToString();
+
+            switch (type)
+            {
+                case Singleton.ToastrType.Error:
+                    <script>ShowError('@title', '@message')</script>
+                    break;
+                case Singleton.ToastrType.Information:
+                    <script>ShowInfo('@title', '@message')</script>
+                    break;
+                case Singleton.ToastrType.Success:
+                    <script>ShowSuccess('@title', '@message')</script>
+                    break;
+                case Singleton.ToastrType.Warning:
+                    <script>ShowWarning('@title', '@message')</script>
+                    break;
+            }
+
+            Session.Remove("Global:Toastr:Title");
+            Session.Remove("Global:Toastr:Message");
+            Session.Remove("Global:Toastr:Type");
+        }
+    }
+
+
+    <!-- END NOTIFICATION SHOWING -->
+    <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

@@ -1,0 +1,405 @@
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\TarjaAEP.dll.config
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\TarjaAEP.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\TarjaAEP.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\Antlr3.Runtime.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\CapaBLL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\CapaBO.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\Newtonsoft.Json.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Helpers.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Mvc.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Optimization.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Razor.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Razor.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\WebGrease.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\CapaDAL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\CapaBLL.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\CapaBO.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Helpers.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Mvc.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Optimization.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Razor.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Razor.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\Newtonsoft.Json.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\Antlr3.Runtime.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.Helpers.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.Mvc.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.Optimization.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.Razor.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.csprojResolveAssemblyReference.cache
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.pdb
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\TarjaAEP.dll.config
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\TarjaAEP.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\TarjaAEP.pdb
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\Antlr3.Runtime.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\CapaBLL.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\CapaBO.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\Newtonsoft.Json.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.Helpers.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.Mvc.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.Optimization.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.Razor.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Razor.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\WebGrease.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\CapaDAL.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\CapaBLL.pdb
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\CapaBO.pdb
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.Helpers.xml
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.Mvc.xml
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.Optimization.xml
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.Razor.xml
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.xml
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Razor.xml
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\Newtonsoft.Json.xml
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\Antlr3.Runtime.pdb
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\es\System.Web.Helpers.resources.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\es\System.Web.Mvc.resources.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\es\System.Web.Optimization.resources.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\es\System.Web.Razor.resources.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.resources.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.csprojResolveAssemblyReference.cache
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\TarjaAEP.dll.config
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\TarjaAEP.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\TarjaAEP.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Antlr3.Runtime.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\CapaBLL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\CapaBO.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\DotNetZip.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\EntityFramework.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\EntityFramework.SqlServer.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\itextsharp.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\itextsharp.xmlworker.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\NBarCodes.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Newtonsoft.Json.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\RazorPDF.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\RazorPDF.Legacy.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Helpers.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Mvc.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Optimization.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Razor.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Razor.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\WebGrease.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\CapaDAL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\CapaBLL.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\CapaBO.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Antlr3.Runtime.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\DotNetZip.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\EntityFramework.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\EntityFramework.SqlServer.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\itextsharp.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\NBarCodes.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\Newtonsoft.Json.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Helpers.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Mvc.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Optimization.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.Razor.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Razor.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\EntityFramework.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.Helpers.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.Mvc.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.Optimization.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.Razor.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.csprojResolveAssemblyReference.cache
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\TarjaAEP.dll.config
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\TarjaAEP.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\TarjaAEP.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Antlr3.Runtime.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\CapaBLL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\CapaBO.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\DotNetZip.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\EntityFramework.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\EntityFramework.SqlServer.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\itextsharp.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\itextsharp.xmlworker.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Microsoft.Web.Infrastructure.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\NBarCodes.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Newtonsoft.Json.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\RazorPDF.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\RazorPDF.Legacy.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.Helpers.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.Mvc.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.Optimization.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.Razor.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Deployment.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Razor.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\WebGrease.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\CapaBLL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\CapaBO.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Antlr3.Runtime.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\DotNetZip.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\EntityFramework.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\EntityFramework.SqlServer.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\itextsharp.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\NBarCodes.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\Newtonsoft.Json.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.Helpers.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.Mvc.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.Optimization.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.Razor.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Deployment.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\System.Web.WebPages.Razor.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\CapaDAL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\EntityFramework.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\EntityFramework.SqlServer.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\System.Web.Helpers.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\System.Web.Mvc.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\System.Web.Optimization.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\System.Web.Razor.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.csprojResolveAssemblyReference.cache
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\TarjaAEP\obj\Debug\TarjaAEP.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.dll.config
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Antlr3.Runtime.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBLL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBO.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\DotNetZip.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.SqlServer.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\itextsharp.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\itextsharp.xmlworker.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.Web.Infrastructure.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\NBarCodes.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Newtonsoft.Json.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\RazorPDF.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\RazorPDF.Legacy.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Helpers.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Mvc.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Optimization.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Razor.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Deployment.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Razor.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\WebGrease.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBLL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBO.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Antlr3.Runtime.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\DotNetZip.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.SqlServer.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\itextsharp.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\NBarCodes.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Newtonsoft.Json.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Helpers.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Mvc.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Optimization.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Razor.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Deployment.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Razor.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaDAL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\EntityFramework.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\EntityFramework.SqlServer.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Helpers.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Mvc.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Optimization.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Razor.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.WebPages.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.csprojResolveAssemblyReference.cache
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.dll.config
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Antlr3.Runtime.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBLL.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBO.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\DotNetZip.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.SqlServer.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\itextsharp.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\itextsharp.xmlworker.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.Web.Infrastructure.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\NBarCodes.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Newtonsoft.Json.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\RazorPDF.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\RazorPDF.Legacy.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Helpers.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Mvc.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Optimization.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Razor.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Deployment.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Razor.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\WebGrease.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaDAL.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBLL.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBLL.dll.config
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBO.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaBO.dll.config
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Antlr3.Runtime.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\DotNetZip.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.SqlServer.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\itextsharp.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\NBarCodes.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\Newtonsoft.Json.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Helpers.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Mvc.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Optimization.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Razor.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Deployment.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Razor.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaDAL.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\CapaDAL.dll.config
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\EntityFramework.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\EntityFramework.SqlServer.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Helpers.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Mvc.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Optimization.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Razor.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.WebPages.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.csprojAssemblyReference.cache
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.csproj.CoreCompileInputs.cache
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.csproj.CopyComplete
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.dll.config
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Antlr3.Runtime.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\CapaBLL.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\CapaBO.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\DotNetZip.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.SqlServer.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\itextsharp.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\itextsharp.xmlworker.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\NBarCodes.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Newtonsoft.Json.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\RazorPDF.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\RazorPDF.Legacy.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Helpers.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Mvc.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Optimization.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Razor.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Deployment.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Razor.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\WebGrease.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\CapaDAL.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\CapaBLL.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\CapaBLL.dll.config
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\CapaBO.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\CapaBO.dll.config
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Antlr3.Runtime.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\DotNetZip.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\EntityFramework.SqlServer.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\itextsharp.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\NBarCodes.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\Newtonsoft.Json.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Helpers.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Mvc.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Optimization.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.Razor.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Deployment.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\System.Web.WebPages.Razor.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\CapaDAL.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\CapaDAL.dll.config
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\EntityFramework.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\EntityFramework.SqlServer.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Core.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\Microsoft.AspNet.Identity.EntityFramework.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\Microsoft.AspNet.Identity.Owin.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Helpers.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Mvc.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Optimization.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.Razor.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.WebPages.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.WebPages.Deployment.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\es\System.Web.WebPages.Razor.resources.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.csprojAssemblyReference.cache
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.csproj.CoreCompileInputs.cache
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.csproj.CopyComplete
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\obj\Debug\TarjaAEP.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.dll.CodeAnalysisLog.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\TarjaAEP\bin\TarjaAEP.dll.lastcodeanalysissucceeded

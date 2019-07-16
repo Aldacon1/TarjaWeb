@@ -1,0 +1,8 @@
+﻿@{
+    var actionName = HttpContext.Current.Request.RequestContext.RouteData.Values["Action"].ToString();
+    var controllerName = HttpContext.Current.Request.RequestContext.RouteData.Values["Controller"].ToString();
+    if (!actionName.Equals("Login"))
+    {
+        Layout = "~/Views/Shared/_Layout.cshtml";
+    }
+}

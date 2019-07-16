@@ -1,0 +1,88 @@
+﻿using CapaBLL;
+using System;
+using System.Collections.Generic;
+using System.Data;
+using System.Linq;
+using System.Web;
+using System.Web.UI;
+using System.Web.UI.WebControls;
+
+public partial class Login : System.Web.UI.Page
+{
+    protected void Page_Load(object sender, EventArgs e)
+    {
+        if (Session["nombre"] != null)
+        {
+            Logout();
+        }
+    }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        int largo = txtCodigoUs.Text.Length;
+        String usuario = txtCodigoUs.Text.Substring(0, largo - 2);
+        String pass = txtPass.Text;
+        Boolean existe = false;
+        DataTable dt = new DataTable();
+        string permiso = string.Empty;
+        string nombre = string.Empty;
+        string terminal = string.Empty;
+        if (!String.IsNullOrEmpty(usuario) || !String.IsNullOrEmpty(pass))
+        {
+            try
+            {
+                dt = new LoginBLL().sp_sel_loginBLL(Convert.ToInt32(usuario), pass);
+                if (dt.Rows.Count > 0)
+                {
+                    existe = true;
+                }
+            }
+            catch (Exception ex)
+            {
+                var visibilityClass = "alert alert-danger";
+                var style = "display:block;";
+                mensajeError.Attributes["class"] = visibilityClass;
+                mensajeError.Attributes["style"] = style;
+                lblMensaje.Text = ex.Message;
+            }
+
+        }
+        else
+        {
+            existe = false;
+        }
+
+        if (existe)
+        {
+            foreach (DataRow row in dt.Rows)
+            {
+                nombre = row["gls_nombre_pers"].ToString();
+                permiso = row["gls_nombre_fun"].ToString();
+                terminal = row["gls_nombre_terminal"].ToString();
+            }
+
+            if (permiso.Equals("SuperAdmin") || permiso.Equals("Planificador") || permiso.Equals("SUPERVISOR DONOSO") || permiso.Equals("SUPERVISOR ALIANZA"))
+            {
+                Session["nombre"] = nombre;
+                Session["permiso"] = permiso;
+                Session["terminal"] = terminal;
+                Response.Redirect("Principal.aspx");
+            }
+        }
+        else
+        {
+            var visibilityClass = "alert alert-danger";
+            var style = "display:block;";
+            mensajeError.Attributes["class"] = visibilityClass;
+            mensajeError.Attributes["style"] = style;
+            lblMensaje.Text = "Nombre de Usuario o Contraseña Incorrectos";
+        }
+
+    }
+
+    public void Logout()
+    {
+        Session.Abandon();
+        Response.Cookies.Add(new HttpCookie("ASP.NET_SessionId", ""));
+    }
+}

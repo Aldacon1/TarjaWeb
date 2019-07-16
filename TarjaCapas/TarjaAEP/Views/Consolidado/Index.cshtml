@@ -1,0 +1,492 @@
+﻿@{
+    ViewBag.PageTitle = "TARJA AEP";
+    ViewBag.Title = "Consolidado";
+    ViewBag.TitleIcon = "icon-note";
+    ViewBag.Subtitle = "";
+    ViewBag.ActiveMenu = "Consolidado";
+}
+
+@section CustomStylesFiles {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/select2/select2.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/datatables/extensions/Scroller/css/dataTables.scroller.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/bootstrap-datepicker/css/bootstrap-datepicker.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/bootstrap-timepicker/css/bootstrap-timepicker.min.css")" />
+}
+
+<div class="col-md-12">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="portlet light bordered">
+                <div class="portlet-title">
+                    <div class="caption">
+                        <i class="icon-magnifier font-grey-gallery"></i>
+                        <span class="caption-subject bold font-grey-gallery uppercase font-sm">
+                            Candidatos a Consolidar
+                        </span>
+                    </div>
+                </div>
+                <table class="table table-striped table-hover table-bordered dataTable no-footer" id="tbConso">
+                    <thead>
+                        <tr class="bg-blue-steel">
+                            <th></th>
+                            <th>NRO TARJA</th>
+                            <th>CLIENTE</th>
+                            <th>CONTENEDOR</th>
+                            <th>FECHA</th>
+                            <th>TERMINAL</th>
+                            <th>ESTADO</th>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-6">
+            <a class="btn default" data-toggle="modal" href="#modalConso">Agregar Planificación </a>
+        </div>
+    </div>
+</div>
+
+@*Modal Agregar*@
+<div id="modalConso" class="modal fade" tabindex="-1" aria-hidden="true" style="display: none;" data-keyboard="false" data-backdrop="static">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title">Planificacion</h4>
+            </div>
+            <div class="modal-body">
+                <div class="scroller" data-always-visible="1" data-rail-visible1="1" data-initialized="1">
+                    <div class="form-body">
+                        <div class="portlet light bordered" id="divPlanCons">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Cliente<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlCliente">
+                                            @foreach (CapaBO.ForwardersBO clientes in ViewBag.Clientes)
+                                            {
+                                                <option value="@clientes.Rut_cliente">@clientes.Nombre_cliente</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                        @Html.Editor("txtNroTarja", new { htmlAttributes = new { @style = "display: none;" } })
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Fecha<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtFecha", new { htmlAttributes = new { @class = "form-control datepicker date-picker", @readonly = "readonly" } })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Reserva<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtReserva", new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">
+                                            Nave<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlNave">
+                                            @foreach (CapaBO.NavesBO naves in ViewBag.Naves)
+                                            {
+                                                <option value="@naves.Nav_cod">@naves.Nav_nom</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Viaje<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtViaje", new { htmlAttributes = new { @class = "form-control OnlyNumbers" } })
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Puerto Origen<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlPuertoOrigen">
+                                            @foreach (CapaBO.PuertosBO puertos in ViewBag.Puertos)
+                                            {
+                                                <option value="@puertos.Cod_puerto">@puertos.Gls_nombre_puerto</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Puerto Destino<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlPuertoDestino">
+                                            @foreach (CapaBO.PuertosBO puertos in ViewBag.Puertos)
+                                            {
+                                                <option value="@puertos.Cod_puerto">@puertos.Gls_nombre_puerto</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Terminal<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlTerminal">
+                                            @foreach (CapaBO.TerminalesBO terminales in ViewBag.Terminales)
+                                            {
+                                                <option value="@terminales.Age_cod">@terminales.Age_nom</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group" id="contenedorDIV">
+                                        <label class="control-label">
+                                            Contenedor<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtContenedor", new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            ISO<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlIso">
+                                            @foreach (CapaBO.IsoDescBO isos in ViewBag.Isos)
+                                            {
+                                                <option value="@isos.Iso_cod">@isos.Iso_nom</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Sellos
+                                        </label>
+                                        @Html.Editor("txtSello1", new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Tarjador<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlTarjador">
+                                            @foreach (CapaBO.PersonasBO tarjadores in ViewBag.Tarjadores)
+                                            {
+                                                <option value="@tarjadores.Rut_persona">@tarjadores.Nom_persona</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a class="btn blue" onclick="guardarEncabezadoPlan();" id="guardarPlanCons">Guardar </a>
+                                    <a class="btn blue" onclick="editarEncabezadoPlan();" id="editarEncabezadoPlan" style="display:none;">Guardar </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-body">
+                        <div class="portlet light bordered" id="divDocsCons">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Tipo de Documento<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlTipoDocumento">
+                                            @foreach (CapaBO.TipoDocumentoBO tipos in ViewBag.TipoDocumento)
+                                            {
+                                                <option value="@tipos.Cod_tipo">@tipos.Gls_desc_tipo</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Numero<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtNroDoc", new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Dress<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtDres", new { htmlAttributes = new { @class = "form-control OnlyNumbers" } })
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">
+                                            Consignante<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtConsignante", new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Consignatario<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtConsignatario", new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Despachante<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtDespachante", new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a class="btn blue" onclick="guardarDocCons();" id="guardarDocCons">Guardar </a>
+                                    <a class="btn blue" onclick="agregarDocCons();" id="guardarDocCons">Agregar </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="portlet light bordered">
+                                    <div class="portlet-title">
+                                        <div class="caption">
+                                            <i class="icon-magnifier font-grey-gallery"></i>
+                                            <span class="caption-subject bold font-grey-gallery uppercase font-sm">
+                                                Documentos a Consolidar
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped table-hover table-bordered dataTable no-footer" id="tbDocsConso">
+                                        <thead>
+                                            <tr class="bg-blue-steel">
+                                                <th>TIPO DOCUMENTO</th>
+                                                <th>NRO DOCUMENTO</th>
+                                                <th>DRES</th>
+                                                <th>CONSIGNANTE</th>
+                                                <th>CONSIGNATARIO</th>
+                                                <th>DESPACHANTE</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-body">
+                        <div class="portlet light bordered" id="divMercCons">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Marca<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtMarca", new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Contenido<span class="required">*</span>
+                                        </label>
+                                        @Html.Editor("txtContenido", new { htmlAttributes = new { @class = "form-control" } })
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="control-label">
+                                            Bulto Principal<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlBultoPrin">
+                                            @foreach (CapaBO.BultosBO bultos in ViewBag.TipoBulto)
+                                            {
+                                                <option value="@bultos.Cod_bulto">@bultos.Desc_bulto</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label class="col-md-3 control-label">
+                                            Bulto Secundario<span class="required">*</span>
+                                        </label>
+                                        <select class="form-control" id="ddlBultoSec">
+                                            @foreach (CapaBO.BultosBO bultos in ViewBag.TipoBulto)
+                                            {
+                                                <option value="@bultos.Cod_bulto">@bultos.Desc_bulto</option>
+                                            }
+                                            <option value="" selected>SELECCIONE</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Alto<span class="required">*</span>
+                                            </label>
+                                            @Html.Editor("txtAlto", new { htmlAttributes = new { @class = "form-control OnlyNumbersDecimal" } })
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Largo<span class="required">*</span>
+                                            </label>
+                                            @Html.Editor("txtLargo", new { htmlAttributes = new { @class = "form-control OnlyNumbersDecimal" } })
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Ancho<span class="required">*</span>
+                                            </label>
+                                            @Html.Editor("txtAncho", new { htmlAttributes = new { @class = "form-control OnlyNumbersDecimal" } })
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Cantidad<span class="required">*</span>
+                                            </label>
+                                            @Html.Editor("txtCantidad", new { htmlAttributes = new { @class = "form-control OnlyNumbers" } })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="col-md-3">
+                                        <div class="form-group">
+                                            <label class="control-label">
+                                                Peso<span class="required">*</span>
+                                            </label>
+                                            @Html.Editor("txtPeso", new { htmlAttributes = new { @class = "form-control OnlyNumbersDecimal" } })
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <a class="btn blue" onclick="guardarMercCons();" id="guardarMercCons">Guardar </a>
+                                    <a class="btn blue" onclick="agregarMercCons();" id="agregarMercCons">Agregar </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="portlet light bordered">
+                                    <div class="portlet-title">
+                                        <div class="caption">
+                                            <i class="icon-magnifier font-grey-gallery"></i>
+                                            <span class="caption-subject bold font-grey-gallery uppercase font-sm">
+                                                Mercancias a Consolidar
+                                            </span>
+                                        </div>
+                                    </div>
+                                    <table class="table table-striped table-hover table-bordered dataTable no-footer" id="tbMercsConso">
+                                        <thead>
+                                            <tr class="bg-blue-steel">
+                                                <th></th>
+                                                <th>MARCA</th>
+                                                <th>CONTENIDO</th>
+                                                <th>PESO</th>
+                                                <th>ALTO</th>
+                                                <th>LARGO</th>
+                                                <th>ANCHO</th>
+                                                <th>CANTIDAD</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <div class="text-center">
+                    <button type="button" class="btn green-jungle" id="btnFinalizarCons" onclick="finalizarPlanCons();">Finalizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+@*Fin Modal Agregar*@
+
+
+
+@section CustomScriptsFiles {
+    <!-- Metronic -->
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/select2/select2.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/datatables/media/js/jquery.dataTables.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/datatables/extensions/TableTools/js/dataTables.tableTools.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/datatables/extensions/Scroller/js/dataTables.scroller.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/datatables/plugins/bootstrap/dataTables.bootstrap.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/jquery-inputmask/jquery.inputmask.bundle.min.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/bootstrap-datepicker/js/bootstrap-datepicker.js")"></script>
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/bootstrap-timepicker/js/bootstrap-timepicker.js")"></script>
+    <!-- Custom -->
+    @Scripts.Render("~/bundles/Consolidado")
+}
+
+@section CustomScriptsInit {
+    <script>
+        $(document).ready(function () {
+            Consolidado.init();
+        });
+    </script>
+}

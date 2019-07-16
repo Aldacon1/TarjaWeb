@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://saam.com/webservices/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://saam.com/webservices/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://saam.com/webservices/">
+      <s:element name="GetDocTypes">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetDocTypesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDocTypesResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocTypesByCompany">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocTypesByCompanyResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDocTypesByCompanyResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocTypesByUser">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetDocTypesByUserResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetDocTypesByUserResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UrlFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UrlFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UrlFileResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UrlsFile">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="strRequest" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UrlsFileResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UrlsFileResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IdArchivos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="IdArchivosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="IdArchivosResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="Archivo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ArchivoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ArchivoResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValDoc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValDocResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValDocResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValSimple">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValSimpleResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValSimpleResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsDoc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InsDocResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InsDocResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DelDoc">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="DelDocResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="DelDocResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetCompanies">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCompaniesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCompaniesResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetSystems">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetSystemsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetSystemsResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetLocations">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetLocationsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetLocationsResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValLogIn">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ValLogInResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ValLogInResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdUsrPas">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xmlRequest">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="UpdUsrPasResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="UpdUsrPasResult">
+              <s:complexType mixed="true">
+                <s:sequence>
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetDocTypesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocTypes" />
+  </wsdl:message>
+  <wsdl:message name="GetDocTypesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocTypesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDocTypesByCompanySoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocTypesByCompany" />
+  </wsdl:message>
+  <wsdl:message name="GetDocTypesByCompanySoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocTypesByCompanyResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDocTypesByUserSoapIn">
+    <wsdl:part name="parameters" element="tns:GetDocTypesByUser" />
+  </wsdl:message>
+  <wsdl:message name="GetDocTypesByUserSoapOut">
+    <wsdl:part name="parameters" element="tns:GetDocTypesByUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="UrlFileSoapIn">
+    <wsdl:part name="parameters" element="tns:UrlFile" />
+  </wsdl:message>
+  <wsdl:message name="UrlFileSoapOut">
+    <wsdl:part name="parameters" element="tns:UrlFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="UrlsFileSoapIn">
+    <wsdl:part name="parameters" element="tns:UrlsFile" />
+  </wsdl:message>
+  <wsdl:message name="UrlsFileSoapOut">
+    <wsdl:part name="parameters" element="tns:UrlsFileResponse" />
+  </wsdl:message>
+  <wsdl:message name="IdArchivosSoapIn">
+    <wsdl:part name="parameters" element="tns:IdArchivos" />
+  </wsdl:message>
+  <wsdl:message name="IdArchivosSoapOut">
+    <wsdl:part name="parameters" element="tns:IdArchivosResponse" />
+  </wsdl:message>
+  <wsdl:message name="ArchivoSoapIn">
+    <wsdl:part name="parameters" element="tns:Archivo" />
+  </wsdl:message>
+  <wsdl:message name="ArchivoSoapOut">
+    <wsdl:part name="parameters" element="tns:ArchivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValDocSoapIn">
+    <wsdl:part name="parameters" element="tns:ValDoc" />
+  </wsdl:message>
+  <wsdl:message name="ValDocSoapOut">
+    <wsdl:part name="parameters" element="tns:ValDocResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValSimpleSoapIn">
+    <wsdl:part name="parameters" element="tns:ValSimple" />
+  </wsdl:message>
+  <wsdl:message name="ValSimpleSoapOut">
+    <wsdl:part name="parameters" element="tns:ValSimpleResponse" />
+  </wsdl:message>
+  <wsdl:message name="InsDocSoapIn">
+    <wsdl:part name="parameters" element="tns:InsDoc" />
+  </wsdl:message>
+  <wsdl:message name="InsDocSoapOut">
+    <wsdl:part name="parameters" element="tns:InsDocResponse" />
+  </wsdl:message>
+  <wsdl:message name="DelDocSoapIn">
+    <wsdl:part name="parameters" element="tns:DelDoc" />
+  </wsdl:message>
+  <wsdl:message name="DelDocSoapOut">
+    <wsdl:part name="parameters" element="tns:DelDocResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCompaniesSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCompanies" />
+  </wsdl:message>
+  <wsdl:message name="GetCompaniesSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCompaniesResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetSystems" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetSystemsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetLocations" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetLocationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="ValLogInSoapIn">
+    <wsdl:part name="parameters" element="tns:ValLogIn" />
+  </wsdl:message>
+  <wsdl:message name="ValLogInSoapOut">
+    <wsdl:part name="parameters" element="tns:ValLogInResponse" />
+  </wsdl:message>
+  <wsdl:message name="UpdUsrPasSoapIn">
+    <wsdl:part name="parameters" element="tns:UpdUsrPas" />
+  </wsdl:message>
+  <wsdl:message name="UpdUsrPasSoapOut">
+    <wsdl:part name="parameters" element="tns:UpdUsrPasResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetDocTypesHttpGetIn" />
+  <wsdl:message name="GetDocTypesHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="UrlsFileHttpGetIn">
+    <wsdl:part name="strRequest" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UrlsFileHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCompaniesHttpGetIn" />
+  <wsdl:message name="GetCompaniesHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemsHttpGetIn" />
+  <wsdl:message name="GetSystemsHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationsHttpGetIn" />
+  <wsdl:message name="GetLocationsHttpGetOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetDocTypesHttpPostIn" />
+  <wsdl:message name="GetDocTypesHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="UrlsFileHttpPostIn">
+    <wsdl:part name="strRequest" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="UrlsFileHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetCompaniesHttpPostIn" />
+  <wsdl:message name="GetCompaniesHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetSystemsHttpPostIn" />
+  <wsdl:message name="GetSystemsHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:message name="GetLocationsHttpPostIn" />
+  <wsdl:message name="GetLocationsHttpPostOut">
+    <wsdl:part name="Body" />
+  </wsdl:message>
+  <wsdl:portType name="FdmSoap">
+    <wsdl:operation name="GetDocTypes">
+      <wsdl:input message="tns:GetDocTypesSoapIn" />
+      <wsdl:output message="tns:GetDocTypesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocTypesByCompany">
+      <wsdl:input message="tns:GetDocTypesByCompanySoapIn" />
+      <wsdl:output message="tns:GetDocTypesByCompanySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetDocTypesByUser">
+      <wsdl:input message="tns:GetDocTypesByUserSoapIn" />
+      <wsdl:output message="tns:GetDocTypesByUserSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UrlFile">
+      <wsdl:input message="tns:UrlFileSoapIn" />
+      <wsdl:output message="tns:UrlFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UrlsFile">
+      <wsdl:input message="tns:UrlsFileSoapIn" />
+      <wsdl:output message="tns:UrlsFileSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="IdArchivos">
+      <wsdl:input message="tns:IdArchivosSoapIn" />
+      <wsdl:output message="tns:IdArchivosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="Archivo">
+      <wsdl:input message="tns:ArchivoSoapIn" />
+      <wsdl:output message="tns:ArchivoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValDoc">
+      <wsdl:input message="tns:ValDocSoapIn" />
+      <wsdl:output message="tns:ValDocSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValSimple">
+      <wsdl:input message="tns:ValSimpleSoapIn" />
+      <wsdl:output message="tns:ValSimpleSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InsDoc">
+      <wsdl:input message="tns:InsDocSoapIn" />
+      <wsdl:output message="tns:InsDocSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="DelDoc">
+      <wsdl:input message="tns:DelDocSoapIn" />
+      <wsdl:output message="tns:DelDocSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanies">
+      <wsdl:input message="tns:GetCompaniesSoapIn" />
+      <wsdl:output message="tns:GetCompaniesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSystems">
+      <wsdl:input message="tns:GetSystemsSoapIn" />
+      <wsdl:output message="tns:GetSystemsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <wsdl:input message="tns:GetLocationsSoapIn" />
+      <wsdl:output message="tns:GetLocationsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="ValLogIn">
+      <wsdl:input message="tns:ValLogInSoapIn" />
+      <wsdl:output message="tns:ValLogInSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdUsrPas">
+      <wsdl:input message="tns:UpdUsrPasSoapIn" />
+      <wsdl:output message="tns:UpdUsrPasSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="FdmHttpGet">
+    <wsdl:operation name="GetDocTypes">
+      <wsdl:input message="tns:GetDocTypesHttpGetIn" />
+      <wsdl:output message="tns:GetDocTypesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UrlsFile">
+      <wsdl:input message="tns:UrlsFileHttpGetIn" />
+      <wsdl:output message="tns:UrlsFileHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanies">
+      <wsdl:input message="tns:GetCompaniesHttpGetIn" />
+      <wsdl:output message="tns:GetCompaniesHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSystems">
+      <wsdl:input message="tns:GetSystemsHttpGetIn" />
+      <wsdl:output message="tns:GetSystemsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <wsdl:input message="tns:GetLocationsHttpGetIn" />
+      <wsdl:output message="tns:GetLocationsHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="FdmHttpPost">
+    <wsdl:operation name="GetDocTypes">
+      <wsdl:input message="tns:GetDocTypesHttpPostIn" />
+      <wsdl:output message="tns:GetDocTypesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="UrlsFile">
+      <wsdl:input message="tns:UrlsFileHttpPostIn" />
+      <wsdl:output message="tns:UrlsFileHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanies">
+      <wsdl:input message="tns:GetCompaniesHttpPostIn" />
+      <wsdl:output message="tns:GetCompaniesHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetSystems">
+      <wsdl:input message="tns:GetSystemsHttpPostIn" />
+      <wsdl:output message="tns:GetSystemsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <wsdl:input message="tns:GetLocationsHttpPostIn" />
+      <wsdl:output message="tns:GetLocationsHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FdmSoap" type="tns:FdmSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDocTypes">
+      <soap:operation soapAction="http://saam.com/webservices/GetDocTypes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocTypesByCompany">
+      <soap:operation soapAction="http://saam.com/webservices/GetDocTypesByCompany" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocTypesByUser">
+      <soap:operation soapAction="http://saam.com/webservices/GetDocTypesByUser" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UrlFile">
+      <soap:operation soapAction="http://saam.com/webservices/UrlFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UrlsFile">
+      <soap:operation soapAction="http://saam.com/webservices/UrlsFile" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IdArchivos">
+      <soap:operation soapAction="http://saam.com/webservices/IdArchivos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Archivo">
+      <soap:operation soapAction="http://saam.com/webservices/Archivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValDoc">
+      <soap:operation soapAction="http://saam.com/webservices/ValDoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValSimple">
+      <soap:operation soapAction="http://saam.com/webservices/ValSimple" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsDoc">
+      <soap:operation soapAction="http://saam.com/webservices/InsDoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelDoc">
+      <soap:operation soapAction="http://saam.com/webservices/DelDoc" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanies">
+      <soap:operation soapAction="http://saam.com/webservices/GetCompanies" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSystems">
+      <soap:operation soapAction="http://saam.com/webservices/GetSystems" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <soap:operation soapAction="http://saam.com/webservices/GetLocations" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValLogIn">
+      <soap:operation soapAction="http://saam.com/webservices/ValLogIn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdUsrPas">
+      <soap:operation soapAction="http://saam.com/webservices/UpdUsrPas" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FdmSoap12" type="tns:FdmSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDocTypes">
+      <soap12:operation soapAction="http://saam.com/webservices/GetDocTypes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocTypesByCompany">
+      <soap12:operation soapAction="http://saam.com/webservices/GetDocTypesByCompany" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetDocTypesByUser">
+      <soap12:operation soapAction="http://saam.com/webservices/GetDocTypesByUser" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UrlFile">
+      <soap12:operation soapAction="http://saam.com/webservices/UrlFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UrlsFile">
+      <soap12:operation soapAction="http://saam.com/webservices/UrlsFile" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="IdArchivos">
+      <soap12:operation soapAction="http://saam.com/webservices/IdArchivos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Archivo">
+      <soap12:operation soapAction="http://saam.com/webservices/Archivo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValDoc">
+      <soap12:operation soapAction="http://saam.com/webservices/ValDoc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValSimple">
+      <soap12:operation soapAction="http://saam.com/webservices/ValSimple" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsDoc">
+      <soap12:operation soapAction="http://saam.com/webservices/InsDoc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DelDoc">
+      <soap12:operation soapAction="http://saam.com/webservices/DelDoc" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanies">
+      <soap12:operation soapAction="http://saam.com/webservices/GetCompanies" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSystems">
+      <soap12:operation soapAction="http://saam.com/webservices/GetSystems" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <soap12:operation soapAction="http://saam.com/webservices/GetLocations" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ValLogIn">
+      <soap12:operation soapAction="http://saam.com/webservices/ValLogIn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdUsrPas">
+      <soap12:operation soapAction="http://saam.com/webservices/UpdUsrPas" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FdmHttpGet" type="tns:FdmHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetDocTypes">
+      <http:operation location="/GetDocTypes" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UrlsFile">
+      <http:operation location="/UrlsFile" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanies">
+      <http:operation location="/GetCompanies" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSystems">
+      <http:operation location="/GetSystems" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <http:operation location="/GetLocations" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FdmHttpPost" type="tns:FdmHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetDocTypes">
+      <http:operation location="/GetDocTypes" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UrlsFile">
+      <http:operation location="/UrlsFile" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetCompanies">
+      <http:operation location="/GetCompanies" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetSystems">
+      <http:operation location="/GetSystems" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetLocations">
+      <http:operation location="/GetLocations" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:content part="Body" type="text/xml" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Fdm">
+    <wsdl:port name="FdmSoap" binding="tns:FdmSoap">
+      <soap:address location="http://wcfdev.saam.cl/Saam.Ws.Fdm/Fdm.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FdmSoap12" binding="tns:FdmSoap12">
+      <soap12:address location="http://wcfdev.saam.cl/Saam.Ws.Fdm/Fdm.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FdmHttpGet" binding="tns:FdmHttpGet">
+      <http:address location="http://wcfdev.saam.cl/Saam.Ws.Fdm/Fdm.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FdmHttpPost" binding="tns:FdmHttpPost">
+      <http:address location="http://wcfdev.saam.cl/Saam.Ws.Fdm/Fdm.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

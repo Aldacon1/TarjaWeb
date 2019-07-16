@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\professional\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL\bin\Debug\CapaBLL.dll">
+   <Modules>
+    <Module Name="capabll.dll">
+     <Namespaces>
+      <Namespace Name="CapaBLL">
+       <Types>
+        <Type Name="BultosBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_bultoBLL(CapaBO.BultosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="BultosBLL.cs" Line="38">'BultosBLL.sp_del_bultoBLL(BultosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_bultosBLL(CapaBO.BultosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="BultosBLL.cs" Line="54">'BultosBLL.sp_ins_bultosBLL(BultosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_bultosBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="BultosBLL.cs" Line="22">'BultosBLL.sp_sel_bultosBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_bultosIDBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="BultosBLL.cs" Line="86">'BultosBLL.sp_sel_bultosIDBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_bultosBLL(CapaBO.BultosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="BultosBLL.cs" Line="70">'BultosBLL.sp_updt_bultosBLL(BultosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DocumentoConsigBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_documentoBLL(CapaBO.DocumentoConsigBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="DocumentoConsigBLL.cs" Line="39">'DocumentoConsigBLL.sp_del_documentoBLL(DocumentoConsigBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_documentoBLL(CapaBO.DocumentoConsigBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="DocumentoConsigBLL.cs" Line="54">'DocumentoConsigBLL.sp_ins_documentoBLL(DocumentoConsigBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_documentosBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="DocumentoConsigBLL.cs" Line="24">'DocumentoConsigBLL.sp_sel_documentosBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_documentosIDBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="DocumentoConsigBLL.cs" Line="84">'DocumentoConsigBLL.sp_sel_documentosIDBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_documentosBLL(CapaBO.DocumentoConsigBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="DocumentoConsigBLL.cs" Line="69">'DocumentoConsigBLL.sp_updt_documentosBLL(DocumentoConsigBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ForwardersBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_ForwarderBLL(CapaBO.ForwardersBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="ForwardersBLL.cs" Line="39">'ForwardersBLL.sp_del_ForwarderBLL(ForwardersBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_inst_ForwarderBLL(CapaBO.ForwardersBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="ForwardersBLL.cs" Line="55">'ForwardersBLL.sp_inst_ForwarderBLL(ForwardersBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_ForwarderBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="ForwardersBLL.cs" Line="23">'ForwardersBLL.sp_sel_ForwarderBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_selPlanDesc_forwarderBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="ForwardersBLL.cs" Line="87">'ForwardersBLL.sp_selPlanDesc_forwarderBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_ForwarderBLL(CapaBO.ForwardersBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="ForwardersBLL.cs" Line="71">'ForwardersBLL.sp_updt_ForwarderBLL(ForwardersBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FotoContenedorBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_fotoConsoBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FotoContenedorBLL.cs" Line="63">'FotoContenedorBLL.sp_sel_fotoConsoBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_fotoContDescBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FotoContenedorBLL.cs" Line="25">'FotoContenedorBLL.sp_sel_fotoContDescBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_fotoContFinBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FotoContenedorBLL.cs" Line="44">'FotoContenedorBLL.sp_sel_fotoContFinBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FotoMercanciaBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_fotoMercDescBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FotoMercanciaBLL.cs" Line="27">'FotoMercanciaBLL.sp_sel_fotoMercDescBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_fotoMercExpoBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FotoMercanciaBLL.cs" Line="46">'FotoMercanciaBLL.sp_sel_fotoMercExpoBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FuncionesBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_funcionesBLL(CapaBO.FuncionesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FuncionesBLL.cs" Line="37">'FuncionesBLL.sp_del_funcionesBLL(FuncionesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_funcionesBLL(CapaBO.FuncionesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FuncionesBLL.cs" Line="52">'FuncionesBLL.sp_ins_funcionesBLL(FuncionesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_funcionesBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FuncionesBLL.cs" Line="22">'FuncionesBLL.sp_sel_funcionesBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_funcionIDBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FuncionesBLL.cs" Line="82">'FuncionesBLL.sp_sel_funcionIDBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_funcionesBLL(CapaBO.FuncionesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="FuncionesBLL.cs" Line="67">'FuncionesBLL.sp_updt_funcionesBLL(FuncionesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GruasDescBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_gruasBLL(CapaBO.GruasDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="GruasDescBLL.cs" Line="37">'GruasDescBLL.sp_del_gruasBLL(GruasDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_gruasBLL(CapaBO.GruasDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="GruasDescBLL.cs" Line="52">'GruasDescBLL.sp_ins_gruasBLL(GruasDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_funcionIDBLL(CapaBO.GruasDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="GruasDescBLL.cs" Line="82">'GruasDescBLL.sp_sel_funcionIDBLL(GruasDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_gruaExpoBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="GruasDescBLL.cs" Line="99">'GruasDescBLL.sp_sel_gruaExpoBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_gruasBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="GruasDescBLL.cs" Line="22">'GruasDescBLL.sp_sel_gruasBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_gruasBLL(CapaBO.GruasDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="GruasDescBLL.cs" Line="67">'GruasDescBLL.sp_updt_gruasBLL(GruasDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IsoDescBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_isoBLL(CapaBO.IsoDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="IsoDescBLL.cs" Line="37">'IsoDescBLL.sp_del_isoBLL(IsoDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_isoBLL(CapaBO.IsoDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="IsoDescBLL.cs" Line="52">'IsoDescBLL.sp_ins_isoBLL(IsoDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_isoBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="IsoDescBLL.cs" Line="22">'IsoDescBLL.sp_sel_isoBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_isoIDBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="IsoDescBLL.cs" Line="82">'IsoDescBLL.sp_sel_isoIDBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_isoBLL(CapaBO.IsoDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="IsoDescBLL.cs" Line="67">'IsoDescBLL.sp_updt_isoBLL(IsoDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LoginBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_login_clienteBLL(System.Int32,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="LoginBLL.cs" Line="69">'LoginBLL.sp_login_clienteBLL(int, string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_loginBLL(System.Int32,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="LoginBLL.cs" Line="38">'LoginBLL.sp_sel_loginBLL(int, string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MercanciaExpoBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_mercExpoBLL(CapaBO.MercanciaExpoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="MercanciaExpoBLL.cs" Line="38">'MercanciaExpoBLL.sp_del_mercExpoBLL(MercanciaExpoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_mercExpoBLL(CapaBO.MercanciaExpoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="MercanciaExpoBLL.cs" Line="53">'MercanciaExpoBLL.sp_ins_mercExpoBLL(MercanciaExpoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_marcaMercBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="MercanciaExpoBLL.cs" Line="100">'MercanciaExpoBLL.sp_sel_marcaMercBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_mercExpoBLL(System.String,System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="MercanciaExpoBLL.cs" Line="23">'MercanciaExpoBLL.sp_sel_mercExpoBLL(string, long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_mercExpoIDBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="MercanciaExpoBLL.cs" Line="83">'MercanciaExpoBLL.sp_sel_mercExpoIDBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_mercExpoBLL(CapaBO.MercanciaExpoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="MercanciaExpoBLL.cs" Line="68">'MercanciaExpoBLL.sp_updt_mercExpoBLL(MercanciaExpoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MercanciasDescBll" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_marcaMercBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="MercanciasDescBll.cs" Line="42">'MercanciasDescBll.sp_sel_marcaMercBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_mercDescBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="MercanciasDescBll.cs" Line="27">'MercanciasDescBll.sp_sel_mercDescBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NavesBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_navesBLL(CapaBO.NavesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="NavesBLL.cs" Line="37">'NavesBLL.sp_del_navesBLL(NavesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_navesBLL(CapaBO.NavesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="NavesBLL.cs" Line="52">'NavesBLL.sp_ins_navesBLL(NavesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_naveIDBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="NavesBLL.cs" Line="82">'NavesBLL.sp_sel_naveIDBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_navesBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="NavesBLL.cs" Line="22">'NavesBLL.sp_sel_navesBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_navesBll(CapaBO.NavesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="NavesBLL.cs" Line="67">'NavesBLL.sp_updt_navesBll(NavesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PermisosBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_permisoIDBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PermisosBLL.cs" Line="36">'PermisosBLL.sp_sel_permisoIDBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PermisosBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PermisosBLL.cs" Line="21">'PermisosBLL.sp_sel_PermisosBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PersonasBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_personasBLL(CapaBO.PersonasBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PersonasBLL.cs" Line="53">'PersonasBLL.sp_del_personasBLL(PersonasBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_personasBLL(CapaBO.PersonasBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PersonasBLL.cs" Line="68">'PersonasBLL.sp_ins_personasBLL(PersonasBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_personasBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PersonasBLL.cs" Line="22">'PersonasBLL.sp_sel_personasBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_personasExpoBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PersonasBLL.cs" Line="131">'PersonasBLL.sp_sel_personasExpoBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_personasIDBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PersonasBLL.cs" Line="98">'PersonasBLL.sp_sel_personasIDBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_personasTarjaBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PersonasBLL.cs" Line="115">'PersonasBLL.sp_sel_personasTarjaBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_tarjadorBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PersonasBLL.cs" Line="37">'PersonasBLL.sp_sel_tarjadorBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_personasBLL(CapaBO.PersonasBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PersonasBLL.cs" Line="83">'PersonasBLL.sp_updt_personasBLL(PersonasBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlanificacionConsBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_PlanificacionConsBLL(CapaBO.PlanificacionConsBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionConsBLL.cs" Line="38">'PlanificacionConsBLL.sp_del_PlanificacionConsBLL(PlanificacionConsBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_PlanificacionConsBLL(CapaBO.PlanificacionConsBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionConsBLL.cs" Line="53">'PlanificacionConsBLL.sp_ins_PlanificacionConsBLL(PlanificacionConsBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionConsBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionConsBLL.cs" Line="23">'PlanificacionConsBLL.sp_sel_PlanificacionConsBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionConsCliente(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionConsBLL.cs" Line="100">'PlanificacionConsBLL.sp_sel_PlanificacionConsCliente(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionConsoIDDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionConsBLL.cs" Line="83">'PlanificacionConsBLL.sp_sel_PlanificacionConsoIDDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_PlanificacionConsoBLL(CapaBO.PlanificacionConsBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionConsBLL.cs" Line="68">'PlanificacionConsBLL.sp_updt_PlanificacionConsoBLL(PlanificacionConsBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlanificacionDescBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_planDescBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDescBLL.cs" Line="56">'PlanificacionDescBLL.sp_del_planDescBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_planDescBLL(CapaBO.PlanificacionDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDescBLL.cs" Line="41">'PlanificacionDescBLL.sp_ins_planDescBLL(PlanificacionDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_planDescBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDescBLL.cs" Line="23">'PlanificacionDescBLL.sp_sel_planDescBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_selPlanDescCliente(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDescBLL.cs" Line="105">'PlanificacionDescBLL.sp_selPlanDescCliente(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_selPlanDescIDBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDescBLL.cs" Line="86">'PlanificacionDescBLL.sp_selPlanDescIDBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_planDescBLL(CapaBO.PlanificacionDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDescBLL.cs" Line="71">'PlanificacionDescBLL.sp_updt_planDescBLL(PlanificacionDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlanificacionDespBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_PlanificacionDespBLL(CapaBO.PlanificacionDespBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDespBLL.cs" Line="38">'PlanificacionDespBLL.sp_del_PlanificacionDespBLL(PlanificacionDespBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_PlanificacionDespBLL(CapaBO.PlanificacionDespBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDespBLL.cs" Line="53">'PlanificacionDespBLL.sp_ins_PlanificacionDespBLL(PlanificacionDespBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionDespBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDespBLL.cs" Line="23">'PlanificacionDespBLL.sp_sel_PlanificacionDespBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionDespCliente(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDespBLL.cs" Line="100">'PlanificacionDespBLL.sp_sel_PlanificacionDespCliente(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionDespIDBLL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDespBLL.cs" Line="83">'PlanificacionDespBLL.sp_sel_PlanificacionDespIDBLL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_PlanificacionDespBLL(CapaBO.PlanificacionDespBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PlanificacionDespBLL.cs" Line="68">'PlanificacionDespBLL.sp_updt_PlanificacionDespBLL(PlanificacionDespBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PuertoBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_puertoBLL(CapaBO.PuertosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PuertoBLL.cs" Line="37">'PuertoBLL.sp_del_puertoBLL(PuertosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_puertoBLL(CapaBO.PuertosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PuertoBLL.cs" Line="52">'PuertoBLL.sp_ins_puertoBLL(PuertosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_puertoBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PuertoBLL.cs" Line="22">'PuertoBLL.sp_sel_puertoBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_puertoIDBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PuertoBLL.cs" Line="82">'PuertoBLL.sp_sel_puertoIDBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_puertoBLL(CapaBO.PuertosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="PuertoBLL.cs" Line="67">'PuertoBLL.sp_updt_puertoBLL(PuertosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SectorVectorBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_sectorVectorBLL(CapaBO.SectorVectorBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="SectorVectorBLL.cs" Line="38">'SectorVectorBLL.sp_del_sectorVectorBLL(SectorVectorBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_sectorVectorBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="SectorVectorBLL.cs" Line="23">'SectorVectorBLL.sp_sel_sectorVectorBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_sectorVectorIDDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="SectorVectorBLL.cs" Line="53">'SectorVectorBLL.sp_sel_sectorVectorIDDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TarjaDescDetBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_ins_tarjaDescDetBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TarjaDescDetBLL.cs" Line="26">'TarjaDescDetBLL.sp_ins_tarjaDescDetBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_tarjaDescDetBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TarjaDescDetBLL.cs" Line="41">'TarjaDescDetBLL.sp_sel_tarjaDescDetBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TerminalesBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_terminalesBLL(CapaBO.TerminalesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TerminalesBLL.cs" Line="38">'TerminalesBLL.sp_del_terminalesBLL(TerminalesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_terminalesBLL(CapaBO.TerminalesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TerminalesBLL.cs" Line="53">'TerminalesBLL.sp_ins_terminalesBLL(TerminalesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_terminalesBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TerminalesBLL.cs" Line="23">'TerminalesBLL.sp_sel_terminalesBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_terminalIDBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TerminalesBLL.cs" Line="83">'TerminalesBLL.sp_sel_terminalIDBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_terminalesBLL(CapaBO.TerminalesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TerminalesBLL.cs" Line="68">'TerminalesBLL.sp_updt_terminalesBLL(TerminalesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TIpoDocumentoBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_tipoDocBLL(CapaBO.TipoDocumentoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TIpoDocumentoBLL.cs" Line="37">'TIpoDocumentoBLL.sp_del_tipoDocBLL(TipoDocumentoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_tipoDocBLL(CapaBO.TipoDocumentoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TIpoDocumentoBLL.cs" Line="52">'TIpoDocumentoBLL.sp_ins_tipoDocBLL(TipoDocumentoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_tipoDocBLL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TIpoDocumentoBLL.cs" Line="22">'TIpoDocumentoBLL.sp_sel_tipoDocBLL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_tipoDocIDBLL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TIpoDocumentoBLL.cs" Line="82">'TIpoDocumentoBLL.sp_sel_tipoDocIDBLL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_tipoDocBLL(CapaBO.TipoDocumentoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="TIpoDocumentoBLL.cs" Line="67">'TIpoDocumentoBLL.sp_updt_tipoDocBLL(TipoDocumentoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="VideosTarjaBLL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_videosBLL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:22Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\BLL" File="VideosTarjaBLL.cs" Line="18">'VideosTarjaBLL.sp_sel_videosBLL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200">
+   <Name>Reiniciar para mantener los detalles de la pila</Name>
+   <Description>Utilice la instrucción de reinicio IL para mantener los detalles de la pila original cuando vaya a volver a provocar la excepción detectada.</Description>
+   <Resolution Name="Default">{0} vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182363.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoría</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Contraer todo</String>
+  <String Key="CheckId">Comprobar id.</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">errores</String>
+  <String Key="ExpandAll">Expandir todo</String>
+  <String Key="Help">Ayuda</String>
+  <String Key="Line">Línea</String>
+  <String Key="Messages">mensajes</String>
+  <String Key="LocationNotStoredInPdb">[Ubicación no almacenada en Pdb]</String>
+  <String Key="Project">Proyecto</String>
+  <String Key="Resolution">Resolución</String>
+  <String Key="Rule">Regla</String>
+  <String Key="RuleFile">Archivo de regla</String>
+  <String Key="RuleDescription">Descripción de la regla</String>
+  <String Key="Source">Origen</String>
+  <String Key="Status">Estado</String>
+  <String Key="Target">Círculos concéntricos</String>
+  <String Key="Warning">Advertencia</String>
+  <String Key="Warnings">advertencias</String>
+  <String Key="ReportTitle">Informe de análisis del código</String>
+ </Localized>
+</FxCopReport>

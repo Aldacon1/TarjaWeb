@@ -1,0 +1,926 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2019\professional\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="16.0">
+ <Targets>
+  <Target Name="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.dll">
+   <Modules>
+    <Module Name="capadal.dll">
+     <Namespaces>
+      <Namespace Name="CapaDAL">
+       <Types>
+        <Type Name="AccesoBDDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#mtdEjecutaProcedimientoAlmacenadoSel(System.String,System.Data.SqlClient.SqlParameter[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDDAL.cs" Line="46">El objeto 'sqlConector' admite Dispose más de una vez en el método 'AccesoBDDAL.mtdEjecutaProcedimientoAlmacenadoSel(string, SqlParameter[])'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 46</Issue>
+            </Message>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDDAL.cs" Line="40">'AccesoBDDAL.mtdEjecutaProcedimientoAlmacenadoSel(string, SqlParameter[])' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+            <Message TypeName="Revisar consultas SQL para comprobar si tienen vulnerabilidades de seguridad" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDDAL.cs" Line="26">La cadena de consulta pasada a 'SqlCommand.SqlCommand(string, SqlConnection)' en 'AccesoBDDAL.mtdEjecutaProcedimientoAlmacenadoSel(string, SqlParameter[])' podría contener las siguientes variables: 'nombreProcedimiento'. Si alguna de estas variables puede proceder de datos proporcionados por el usuario, considere el uso de un procedimiento almacenado o una consulta SQL parametrizada en lugar de compilar la consulta con concatenaciones de cadenas.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mtdEjecutaProcedimientoAlmacenadoSelDS(System.String,System.Data.SqlClient.SqlParameter[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDDAL.cs" Line="83">El objeto 'sqlConector' admite Dispose más de una vez en el método 'AccesoBDDAL.mtdEjecutaProcedimientoAlmacenadoSelDS(string, SqlParameter[])'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 83</Issue>
+            </Message>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDDAL.cs" Line="77">'AccesoBDDAL.mtdEjecutaProcedimientoAlmacenadoSelDS(string, SqlParameter[])' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+            <Message TypeName="Revisar consultas SQL para comprobar si tienen vulnerabilidades de seguridad" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDDAL.cs" Line="63">La cadena de consulta pasada a 'SqlCommand.SqlCommand(string, SqlConnection)' en 'AccesoBDDAL.mtdEjecutaProcedimientoAlmacenadoSelDS(string, SqlParameter[])' podría contener las siguientes variables: 'nombreProcedimiento'. Si alguna de estas variables puede proceder de datos proporcionados por el usuario, considere el uso de un procedimiento almacenado o una consulta SQL parametrizada en lugar de compilar la consulta con concatenaciones de cadenas.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="AccesoBDVideosDAL" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Members>
+          <Member Name="#mtdEjecutaProcedimientoAlmacenadoSel(System.String,System.Data.SqlClient.SqlParameter[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDVideosDAL.cs" Line="42">El objeto 'sqlConector' admite Dispose más de una vez en el método 'AccesoBDVideosDAL.mtdEjecutaProcedimientoAlmacenadoSel(string, SqlParameter[])'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 42</Issue>
+            </Message>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDVideosDAL.cs" Line="36">'AccesoBDVideosDAL.mtdEjecutaProcedimientoAlmacenadoSel(string, SqlParameter[])' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+            <Message TypeName="Revisar consultas SQL para comprobar si tienen vulnerabilidades de seguridad" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDVideosDAL.cs" Line="22">La cadena de consulta pasada a 'SqlCommand.SqlCommand(string, SqlConnection)' en 'AccesoBDVideosDAL.mtdEjecutaProcedimientoAlmacenadoSel(string, SqlParameter[])' podría contener las siguientes variables: 'nombreProcedimiento'. Si alguna de estas variables puede proceder de datos proporcionados por el usuario, considere el uso de un procedimiento almacenado o una consulta SQL parametrizada en lugar de compilar la consulta con concatenaciones de cadenas.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#mtdEjecutaProcedimientoAlmacenadoSelDS(System.String,System.Data.SqlClient.SqlParameter[])" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="False">
+           <Messages>
+            <Message TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDVideosDAL.cs" Line="79">El objeto 'sqlConector' admite Dispose más de una vez en el método 'AccesoBDVideosDAL.mtdEjecutaProcedimientoAlmacenadoSelDS(string, SqlParameter[])'. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 79</Issue>
+            </Message>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDVideosDAL.cs" Line="73">'AccesoBDVideosDAL.mtdEjecutaProcedimientoAlmacenadoSelDS(string, SqlParameter[])' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+            <Message TypeName="Revisar consultas SQL para comprobar si tienen vulnerabilidades de seguridad" Category="Microsoft.Security" CheckId="CA2100" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="DependsOnFix">
+             <Issue Name="WithNonLiterals" Certainty="75" Level="Warning" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="AccesoBDVideosDAL.cs" Line="59">La cadena de consulta pasada a 'SqlCommand.SqlCommand(string, SqlConnection)' en 'AccesoBDVideosDAL.mtdEjecutaProcedimientoAlmacenadoSelDS(string, SqlParameter[])' podría contener las siguientes variables: 'nombreProcedimiento'. Si alguna de estas variables puede proceder de datos proporcionados por el usuario, considere el uso de un procedimiento almacenado o una consulta SQL parametrizada en lugar de compilar la consulta con concatenaciones de cadenas.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="BultosDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_bultosDAL(CapaBO.BultosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="BultosDAL.cs" Line="47">'BultosDAL.sp_del_bultosDAL(BultosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_bultosDAL(CapaBO.BultosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="BultosDAL.cs" Line="68">'BultosDAL.sp_ins_bultosDAL(BultosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_bultoIDDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="BultosDAL.cs" Line="108">'BultosDAL.sp_sel_bultoIDDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_bultosDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="BultosDAL.cs" Line="28">'BultosDAL.sp_sel_bultosDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_bultosDAL(CapaBO.BultosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="BultosDAL.cs" Line="89">'BultosDAL.sp_updt_bultosDAL(BultosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="DocumentoConsigDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_documentoDAL(CapaBO.DocumentoConsigBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="DocumentoConsigDAL.cs" Line="49">'DocumentoConsigDAL.sp_del_documentoDAL(DocumentoConsigBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_documentoDAL(CapaBO.DocumentoConsigBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="DocumentoConsigDAL.cs" Line="80">'DocumentoConsigDAL.sp_ins_documentoDAL(DocumentoConsigBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_documentosDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="DocumentoConsigDAL.cs" Line="28">'DocumentoConsigDAL.sp_sel_documentosDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_documentosIDDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="DocumentoConsigDAL.cs" Line="130">'DocumentoConsigDAL.sp_sel_documentosIDDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_documentosDAL(CapaBO.DocumentoConsigBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="DocumentoConsigDAL.cs" Line="111">'DocumentoConsigDAL.sp_updt_documentosDAL(DocumentoConsigBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="ForwardersDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_ForwarderDAL(CapaBO.ForwardersBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="ForwardersDAL.cs" Line="47">'ForwardersDAL.sp_del_ForwarderDAL(ForwardersBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_ForwarderDAL(CapaBO.ForwardersBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="ForwardersDAL.cs" Line="74">'ForwardersDAL.sp_ins_ForwarderDAL(ForwardersBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_login_clienteDAL(System.Int32,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="ForwardersDAL.cs" Line="144">'ForwardersDAL.sp_login_clienteDAL(int, string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_ForwardersDescDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="ForwardersDAL.cs" Line="28">'ForwardersDAL.sp_sel_ForwardersDescDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_selPlanDesc_ForwarderDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="ForwardersDAL.cs" Line="120">'ForwardersDAL.sp_selPlanDesc_ForwarderDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_ForwarderDAL(CapaBO.ForwardersBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="ForwardersDAL.cs" Line="101">'ForwardersDAL.sp_updt_ForwarderDAL(ForwardersBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FotoContenedorDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_fotoConsoDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FotoContenedorDAL.cs" Line="67">'FotoContenedorDAL.sp_sel_fotoConsoDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_fotoContDescDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FotoContenedorDAL.cs" Line="29">'FotoContenedorDAL.sp_sel_fotoContDescDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_fotoContFinDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FotoContenedorDAL.cs" Line="48">'FotoContenedorDAL.sp_sel_fotoContFinDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FotoMercanciaDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_fotoMercDescDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FotoMercanciaDAL.cs" Line="25">'FotoMercanciaDAL.sp_sel_fotoMercDescDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_fotoMercExpoDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FotoMercanciaDAL.cs" Line="44">'FotoMercanciaDAL.sp_sel_fotoMercExpoDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="FuncionesDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_funcionesDAL(CapaBO.FuncionesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FuncionesDAL.cs" Line="47">'FuncionesDAL.sp_del_funcionesDAL(FuncionesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_funcionesDAL(CapaBO.FuncionesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FuncionesDAL.cs" Line="70">'FuncionesDAL.sp_ins_funcionesDAL(FuncionesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_funcionesDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FuncionesDAL.cs" Line="28">'FuncionesDAL.sp_sel_funcionesDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_funcionIDDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FuncionesDAL.cs" Line="112">'FuncionesDAL.sp_sel_funcionIDDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_funcionesDAL(CapaBO.FuncionesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="FuncionesDAL.cs" Line="93">'FuncionesDAL.sp_updt_funcionesDAL(FuncionesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="GruasDescDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_gruasDAL(CapaBO.GruasDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="GruasDescDAL.cs" Line="47">'GruasDescDAL.sp_del_gruasDAL(GruasDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_gruasDAL(CapaBO.GruasDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="GruasDescDAL.cs" Line="70">'GruasDescDAL.sp_ins_gruasDAL(GruasDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_gruaExpoDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="GruasDescDAL.cs" Line="133">'GruasDescDAL.sp_sel_gruaExpoDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_gruaIDDAL(CapaBO.GruasDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="GruasDescDAL.cs" Line="112">'GruasDescDAL.sp_sel_gruaIDDAL(GruasDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_gruasDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="GruasDescDAL.cs" Line="28">'GruasDescDAL.sp_sel_gruasDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_gruasDAL(CapaBO.GruasDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="GruasDescDAL.cs" Line="93">'GruasDescDAL.sp_updt_gruasDAL(GruasDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="IsoDescDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_isoDAL(CapaBO.IsoDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="IsoDescDAL.cs" Line="47">'IsoDescDAL.sp_del_isoDAL(IsoDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_isoDAL(CapaBO.IsoDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="IsoDescDAL.cs" Line="70">'IsoDescDAL.sp_ins_isoDAL(IsoDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_isoDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="IsoDescDAL.cs" Line="28">'IsoDescDAL.sp_sel_isoDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_isoIDDAL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="IsoDescDAL.cs" Line="112">'IsoDescDAL.sp_sel_isoIDDAL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_isoDAL(CapaBO.IsoDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="IsoDescDAL.cs" Line="93">'IsoDescDAL.sp_updt_isoDAL(IsoDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="LoginDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_loginDAL(System.Int32,System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="LoginDAL.cs" Line="32">'LoginDAL.sp_sel_loginDAL(int, string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MercanciaExpoDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_mercExpoDAL(CapaBO.MercanciaExpoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="MercanciaExpoDAL.cs" Line="51">'MercanciaExpoDAL.sp_del_mercExpoDAL(MercanciaExpoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_mercExpoDAL(CapaBO.MercanciaExpoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="MercanciaExpoDAL.cs" Line="94">'MercanciaExpoDAL.sp_ins_mercExpoDAL(MercanciaExpoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_marcaMerc(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="MercanciaExpoDAL.cs" Line="180">'MercanciaExpoDAL.sp_sel_marcaMerc(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_mercExpoDAL(System.String,System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="MercanciaExpoDAL.cs" Line="32">'MercanciaExpoDAL.sp_sel_mercExpoDAL(string, long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_mercExpoIDDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="MercanciaExpoDAL.cs" Line="156">'MercanciaExpoDAL.sp_sel_mercExpoIDDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_mercExpoDAL(CapaBO.MercanciaExpoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="MercanciaExpoDAL.cs" Line="137">'MercanciaExpoDAL.sp_updt_mercExpoDAL(MercanciaExpoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="MercanciasDescDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_marcaMerc(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="MercanciasDescDAL.cs" Line="51">'MercanciasDescDAL.sp_sel_marcaMerc(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_mercDescDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="MercanciasDescDAL.cs" Line="29">'MercanciasDescDAL.sp_sel_mercDescDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="NavesDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_navesDAL(CapaBO.NavesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="NavesDAL.cs" Line="47">'NavesDAL.sp_del_navesDAL(NavesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_navesDAL(CapaBO.NavesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="NavesDAL.cs" Line="68">'NavesDAL.sp_ins_navesDAL(NavesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_naveIDDAL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="NavesDAL.cs" Line="108">'NavesDAL.sp_sel_naveIDDAL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_navesDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="NavesDAL.cs" Line="28">'NavesDAL.sp_sel_navesDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_navesDAL(CapaBO.NavesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="NavesDAL.cs" Line="89">'NavesDAL.sp_updt_navesDAL(NavesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PermisosDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_permisoIDDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PermisosDAL.cs" Line="47">'PermisosDAL.sp_sel_permisoIDDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PermisosDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PermisosDAL.cs" Line="28">'PermisosDAL.sp_sel_PermisosDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PersonasDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_personasDAL(CapaBO.PersonasBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PersonasDAL.cs" Line="70">'PersonasDAL.sp_del_personasDAL(PersonasBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_personasDAL(CapaBO.PersonasBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PersonasDAL.cs" Line="97">'PersonasDAL.sp_ins_personasDAL(PersonasBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_personasDAL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PersonasDAL.cs" Line="31">'PersonasDAL.sp_sel_personasDAL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_personasIDDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PersonasDAL.cs" Line="143">'PersonasDAL.sp_sel_personasIDDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_personasTarjaDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PersonasDAL.cs" Line="164">'PersonasDAL.sp_sel_personasTarjaDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_personasTarjaExpoDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PersonasDAL.cs" Line="184">'PersonasDAL.sp_sel_personasTarjaExpoDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_tarjadorDAL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PersonasDAL.cs" Line="50">'PersonasDAL.sp_sel_tarjadorDAL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_personasDAL(CapaBO.PersonasBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PersonasDAL.cs" Line="124">'PersonasDAL.sp_updt_personasDAL(PersonasBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlanificacionConsDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_PlanificacionConsDAL(CapaBO.PlanificacionConsBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionConsDAL.cs" Line="49">'PlanificacionConsDAL.sp_del_PlanificacionConsDAL(PlanificacionConsBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_PlanificacionConsDAL(CapaBO.PlanificacionConsBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionConsDAL.cs" Line="94">'PlanificacionConsDAL.sp_ins_PlanificacionConsDAL(PlanificacionConsBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionConsCliente(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionConsDAL.cs" Line="179">'PlanificacionConsDAL.sp_sel_PlanificacionConsCliente(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionConsDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionConsDAL.cs" Line="30">'PlanificacionConsDAL.sp_sel_PlanificacionConsDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionConsoIDDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionConsDAL.cs" Line="158">'PlanificacionConsDAL.sp_sel_PlanificacionConsoIDDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_PlanificacionConsoDAL(CapaBO.PlanificacionConsBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionConsDAL.cs" Line="139">'PlanificacionConsDAL.sp_updt_PlanificacionConsoDAL(PlanificacionConsBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlanificacionDescDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_planDescDAL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDescDAL.cs" Line="107">'PlanificacionDescDAL.sp_del_planDescDAL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_planDescDAL(CapaBO.PlanificacionDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDescDAL.cs" Line="88">'PlanificacionDescDAL.sp_ins_planDescDAL(PlanificacionDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_planDescDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDescDAL.cs" Line="31">'PlanificacionDescDAL.sp_sel_planDescDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_selPlanDescCliente(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDescDAL.cs" Line="204">'PlanificacionDescDAL.sp_selPlanDescCliente(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_selPlanDescIDDAL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDescDAL.cs" Line="183">'PlanificacionDescDAL.sp_selPlanDescIDDAL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_planDescDAL(CapaBO.PlanificacionDescBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDescDAL.cs" Line="164">'PlanificacionDescDAL.sp_updt_planDescDAL(PlanificacionDescBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PlanificacionDespDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_PlanificacionDespDAL(CapaBO.PlanificacionDespBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDespDAL.cs" Line="49">'PlanificacionDespDAL.sp_del_PlanificacionDespDAL(PlanificacionDespBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_PlanificacionDespDAL(CapaBO.PlanificacionDespBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDespDAL.cs" Line="86">'PlanificacionDespDAL.sp_ins_PlanificacionDespDAL(PlanificacionDespBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionDespCliente(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDespDAL.cs" Line="163">'PlanificacionDespDAL.sp_sel_PlanificacionDespCliente(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionDespDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDespDAL.cs" Line="30">'PlanificacionDespDAL.sp_sel_PlanificacionDespDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_PlanificacionDespIDDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDespDAL.cs" Line="142">'PlanificacionDespDAL.sp_sel_PlanificacionDespIDDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_PlanificacionConsoDAL(CapaBO.PlanificacionDespBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PlanificacionDespDAL.cs" Line="123">'PlanificacionDespDAL.sp_updt_PlanificacionConsoDAL(PlanificacionDespBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="PuertosDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_puertoDAL(CapaBO.PuertosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PuertosDAL.cs" Line="47">'PuertosDAL.sp_del_puertoDAL(PuertosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_puertoDAL(CapaBO.PuertosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PuertosDAL.cs" Line="68">'PuertosDAL.sp_ins_puertoDAL(PuertosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_puertoDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PuertosDAL.cs" Line="28">'PuertosDAL.sp_sel_puertoDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_puertoIDDAL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PuertosDAL.cs" Line="108">'PuertosDAL.sp_sel_puertoIDDAL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_puertoDAL(CapaBO.PuertosBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="PuertosDAL.cs" Line="89">'PuertosDAL.sp_updt_puertoDAL(PuertosBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SectorVectorDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_sectorVectorDAL(CapaBO.SectorVectorBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="SectorVectorDAL.cs" Line="49">'SectorVectorDAL.sp_del_sectorVectorDAL(SectorVectorBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_sectorVectorDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="SectorVectorDAL.cs" Line="28">'SectorVectorDAL.sp_sel_sectorVectorDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_sectorVectorIDDAL(System.Int64)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="SectorVectorDAL.cs" Line="68">'SectorVectorDAL.sp_sel_sectorVectorIDDAL(long)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TarjaDescDetDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_ins_tarjaDescDetDAL(CapaBO.TarjaDescDetBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TarjaDescDetDAL.cs" Line="36">'TarjaDescDetDAL.sp_ins_tarjaDescDetDAL(TarjaDescDetBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_tarjaDescDetDAL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TarjaDescDetDAL.cs" Line="55">'TarjaDescDetDAL.sp_sel_tarjaDescDetDAL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TerminalesDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_terminalesDAL(CapaBO.TerminalesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TerminalesDAL.cs" Line="47">'TerminalesDAL.sp_del_terminalesDAL(TerminalesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_terminalesDAL(CapaBO.TerminalesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TerminalesDAL.cs" Line="68">'TerminalesDAL.sp_ins_terminalesDAL(TerminalesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_terminalesDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TerminalesDAL.cs" Line="28">'TerminalesDAL.sp_sel_terminalesDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_terminalIDDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TerminalesDAL.cs" Line="108">'TerminalesDAL.sp_sel_terminalIDDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_terminalesDAL(CapaBO.TerminalesBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TerminalesDAL.cs" Line="89">'TerminalesDAL.sp_updt_terminalesDAL(TerminalesBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="TipoDocumentoDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_del_tipoDocDAL(CapaBO.TipoDocumentoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TipoDocumentoDAL.cs" Line="47">'TipoDocumentoDAL.sp_del_tipoDocDAL(TipoDocumentoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_ins_tipoDocDAL(CapaBO.TipoDocumentoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TipoDocumentoDAL.cs" Line="68">'TipoDocumentoDAL.sp_ins_tipoDocDAL(TipoDocumentoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_tipoDocDAL()" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TipoDocumentoDAL.cs" Line="28">'TipoDocumentoDAL.sp_sel_tipoDocDAL()' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_sel_tipoDocIDDAL(System.Int32)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TipoDocumentoDAL.cs" Line="108">'TipoDocumentoDAL.sp_sel_tipoDocIDDAL(int)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#sp_updt_tipoDocDAL(CapaBO.TipoDocumentoBO)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="TipoDocumentoDAL.cs" Line="89">'TipoDocumentoDAL.sp_updt_tipoDocDAL(TipoDocumentoBO)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="VideosTarjaDAL" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#sp_sel_videosDAL(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200" Status="Active" Created="2019-07-09 16:05:16Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="Error" Path="C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL" File="VideosTarjaDAL.cs" Line="25">'VideosTarjaDAL.sp_sel_videosDAL(string)' vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="No usar Dispose varias veces en objetos" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>No usar Dispose varias veces en objetos</Name>
+   <Description>Un método Dispose correctamente implementado se puede llamar varias veces sin producir ninguna excepción. Sin embargo, esto no está garantizado y, para evitar generar una excepción System.ObjectDisposedException, no debe llamar al método Dispose más de una vez en un objeto.</Description>
+   <Resolution Name="Default">El objeto {0} admite Dispose más de una vez en el método {1}. Para evitar generar una excepción System.ObjectDisposedException, no debe llamar a Dispose más de una vez en un objeto.: Lines: 79</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="RethrowToPreserveStackDetails" Category="Microsoft.Usage" CheckId="CA2200">
+   <Name>Reiniciar para mantener los detalles de la pila</Name>
+   <Description>Utilice la instrucción de reinicio IL para mantener los detalles de la pila original cuando vaya a volver a provocar la excepción detectada.</Description>
+   <Resolution Name="Default">{0} vuelve a producir una excepción detectada y la especifica explícitamente como un argumento. Utilice 'throw' sin un argumento, para mantener la ubicación de la pila donde se provocó inicialmente la excepción.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182363.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">Error</MessageLevel>
+   <File Name="usagerules.dll" Version="16.0.0.0" />
+  </Rule>
+  <Rule TypeName="Revisar consultas SQL para comprobar si tienen vulnerabilidades de seguridad" Category="Microsoft.Security" CheckId="CA2100">
+   <Name>Revisar consultas SQL para comprobar si tienen vulnerabilidades de seguridad</Name>
+   <Description>Una cadena de comando SQL compilada a partir de datos proporcionados por el usuario es vulnerable a ataques pon inyección de código SQL. Microsoft SQL Server y otros servidores de bases de datos admiten procedimientos almacenados y consultas SQL parametrizadas, que reducen el riesgo de ataques por inyección.</Description>
+   <Resolution Name="WithNonLiterals">La cadena de consulta pasada a {0} en {1} podría contener las siguientes variables: {2}. Si alguna de estas variables puede proceder de datos proporcionados por el usuario, considere el uso de un procedimiento almacenado o una consulta SQL parametrizada en lugar de compilar la consulta con concatenaciones de cadenas.</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182310.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="16.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoría</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Contraer todo</String>
+  <String Key="CheckId">Comprobar id.</String>
+  <String Key="Error">Error</String>
+  <String Key="Errors">errores</String>
+  <String Key="ExpandAll">Expandir todo</String>
+  <String Key="Help">Ayuda</String>
+  <String Key="Line">Línea</String>
+  <String Key="Messages">mensajes</String>
+  <String Key="LocationNotStoredInPdb">[Ubicación no almacenada en Pdb]</String>
+  <String Key="Project">Proyecto</String>
+  <String Key="Resolution">Resolución</String>
+  <String Key="Rule">Regla</String>
+  <String Key="RuleFile">Archivo de regla</String>
+  <String Key="RuleDescription">Descripción de la regla</String>
+  <String Key="Source">Origen</String>
+  <String Key="Status">Estado</String>
+  <String Key="Target">Círculos concéntricos</String>
+  <String Key="Warning">Advertencia</String>
+  <String Key="Warnings">advertencias</String>
+  <String Key="ReportTitle">Informe de análisis del código</String>
+ </Localized>
+</FxCopReport>

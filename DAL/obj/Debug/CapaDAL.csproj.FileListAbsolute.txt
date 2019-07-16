@@ -1,0 +1,103 @@
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\DAL\bin\Debug\CapaDAL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\DAL\bin\Debug\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\DAL\bin\Debug\CapaBO.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\DAL\bin\Debug\CapaBO.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\DAL\obj\Debug\CapaDAL.csprojResolveAssemblyReference.cache
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\DAL\obj\Debug\CapaDAL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2013\Projects\TarjaCapas\DAL\obj\Debug\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\TarjaCapas\DAL\bin\Debug\CapaDAL.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\DAL\bin\Debug\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\TarjaCapas\DAL\bin\Debug\CapaBO.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\DAL\bin\Debug\CapaBO.pdb
+C:\Users\fcaamanos\Documents\TarjaCapas\DAL\obj\Debug\CapaDAL.csprojResolveAssemblyReference.cache
+C:\Users\fcaamanos\Documents\TarjaCapas\DAL\obj\Debug\CapaDAL.dll
+C:\Users\fcaamanos\Documents\TarjaCapas\DAL\obj\Debug\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\CapaDAL.dll.config
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\CapaDAL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\CapaBO.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\itextsharp.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\RazorPDF.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\RazorPDF.Legacy.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\System.Web.Mvc.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\CapaBO.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\itextsharp.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Debug\System.Web.Mvc.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\obj\Debug\CapaDAL.csprojResolveAssemblyReference.cache
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\obj\Debug\CapaDAL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\obj\Debug\CapaDAL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\CapaDAL.dll.config
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\CapaDAL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\CapaBO.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\itextsharp.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\itextsharp.xmlworker.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\RazorPDF.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\RazorPDF.Legacy.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\System.Web.Mvc.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\CapaBO.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\itextsharp.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Debug\System.Web.Mvc.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\obj\Debug\CapaDAL.csprojResolveAssemblyReference.cache
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\obj\Debug\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\obj\Debug\CapaDAL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.dll.config
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaBO.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\itextsharp.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\itextsharp.xmlworker.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\RazorPDF.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\RazorPDF.Legacy.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\System.Web.Mvc.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaBO.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\itextsharp.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\System.Web.Mvc.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.csprojResolveAssemblyReference.cache
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.dll.config
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaBO.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\itextsharp.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\itextsharp.xmlworker.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\RazorPDF.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\RazorPDF.Legacy.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaBO.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\CapaBO.dll.config
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\itextsharp.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.csprojAssemblyReference.cache
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.csproj.CoreCompileInputs.cache
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.csproj.CopyComplete
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.dll.config
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\CapaBO.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\itextsharp.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\itextsharp.xmlworker.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\RazorPDF.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\RazorPDF.Legacy.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\CapaBO.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\CapaBO.dll.config
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\itextsharp.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.csprojAssemblyReference.cache
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.csproj.CoreCompileInputs.cache
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.csproj.CopyComplete
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.dll
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\obj\Debug\CapaDAL.pdb
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.dll.CodeAnalysisLog.xml
+C:\Users\aadamc\Documents\AAdam\UNAB\Proyecto de titulo\AEP.Tarja.Web\DAL\bin\Debug\CapaDAL.dll.lastcodeanalysissucceeded

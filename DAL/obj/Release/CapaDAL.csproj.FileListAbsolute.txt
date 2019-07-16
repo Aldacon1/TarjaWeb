@@ -1,0 +1,71 @@
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\CapaDAL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\CapaBO.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\CapaBO.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\obj\Release\CapaDAL.csprojResolveAssemblyReference.cache
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\obj\Release\CapaDAL.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\obj\Release\CapaDAL.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\CapaDAL.dll.config
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\itextsharp.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\itextsharp.xmlworker.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\Newtonsoft.Json.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\RazorPDF.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\RazorPDF.Legacy.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\System.Web.Mvc.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\itextsharp.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\Newtonsoft.Json.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\DAL\bin\Release\System.Web.Mvc.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\CapaDAL.dll.config
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\CapaDAL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\CapaBO.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\itextsharp.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\itextsharp.xmlworker.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\Newtonsoft.Json.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\RazorPDF.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\RazorPDF.Legacy.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\System.Web.Mvc.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\CapaBO.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\itextsharp.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\Newtonsoft.Json.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\bin\Release\System.Web.Mvc.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\obj\Release\CapaDAL.csprojResolveAssemblyReference.cache
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\obj\Release\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\TarjaCapas\DAL\obj\Release\CapaDAL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaDAL.dll.config
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaDAL.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaBO.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\itextsharp.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\itextsharp.xmlworker.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\Newtonsoft.Json.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\RazorPDF.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\RazorPDF.Legacy.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\System.Web.Mvc.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaBO.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\itextsharp.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\Newtonsoft.Json.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\System.Web.Mvc.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\obj\Release\CapaDAL.csprojResolveAssemblyReference.cache
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\obj\Release\CapaDAL.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\DAL\obj\Release\CapaDAL.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaDAL.dll.config
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaDAL.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaDAL.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaBO.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\itextsharp.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\itextsharp.xmlworker.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\Newtonsoft.Json.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\RazorPDF.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\RazorPDF.Legacy.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\System.Web.Mvc.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaBO.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\CapaBO.dll.config
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\itextsharp.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\Newtonsoft.Json.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\bin\Release\System.Web.Mvc.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Release\CapaDAL.csprojAssemblyReference.cache
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Release\CapaDAL.csproj.CoreCompileInputs.cache
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Release\CapaDAL.csproj.CopyComplete
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Release\CapaDAL.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\DAL\obj\Release\CapaDAL.pdb

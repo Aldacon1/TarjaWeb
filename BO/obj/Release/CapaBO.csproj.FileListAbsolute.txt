@@ -1,0 +1,53 @@
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\CapaBO.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\CapaBO.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\Newtonsoft.Json.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\Newtonsoft.Json.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\obj\Release\CapaBO.csprojResolveAssemblyReference.cache
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\obj\Release\CapaBO.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\obj\Release\CapaBO.pdb
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\CapaBO.dll.config
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\itextsharp.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\itextsharp.xmlworker.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\RazorPDF.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\RazorPDF.Legacy.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\System.Web.Mvc.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\itextsharp.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\System.Web.Mvc.xml
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\DotNetZip.dll
+C:\Users\fcaamanos\Documents\Visual Studio 2015\Projects\TarjaCapas\BO\bin\Release\DotNetZip.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\CapaBO.dll.config
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\CapaBO.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\CapaBO.pdb
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\DotNetZip.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\itextsharp.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\itextsharp.xmlworker.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\Newtonsoft.Json.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\RazorPDF.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\RazorPDF.Legacy.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\System.Web.Mvc.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\DotNetZip.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\itextsharp.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\Newtonsoft.Json.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\bin\Release\System.Web.Mvc.xml
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\obj\Release\CapaBO.csprojResolveAssemblyReference.cache
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\obj\Release\CapaBO.dll
+C:\TFS\AEP\Development\AEP.Tarja.Web\BO\obj\Release\CapaBO.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\CapaBO.dll.config
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\CapaBO.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\CapaBO.pdb
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\DotNetZip.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\itextsharp.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\itextsharp.xmlworker.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\Newtonsoft.Json.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\RazorPDF.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\RazorPDF.Legacy.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\System.Web.Mvc.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\DotNetZip.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\itextsharp.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\Newtonsoft.Json.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\bin\Release\System.Web.Mvc.xml
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\obj\Release\CapaBO.csprojAssemblyReference.cache
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\obj\Release\CapaBO.csproj.CoreCompileInputs.cache
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\obj\Release\CapaBO.csproj.CopyComplete
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\obj\Release\CapaBO.dll
+C:\DEFCOLLECTION\AEP\Development\AEP.Tarja.Web\BO\obj\Release\CapaBO.pdb

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://wcfdev.saam.cl/Saam.Ws.Fdm/Fdm.asmx?wsdl" docRef="http://wcfdev.saam.cl/Saam.Ws.Fdm/Fdm.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://wcfdev.saam.cl/Saam.Ws.Fdm/Fdm.asmx" xmlns:q1="http://saam.com/webservices/" binding="q1:FdmSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://wcfdev.saam.cl/Saam.Ws.Fdm/Fdm.asmx" xmlns:q2="http://saam.com/webservices/" binding="q2:FdmSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

@@ -1,0 +1,179 @@
+﻿@using TarjaAEP.Tools
+@{
+    ViewBag.PageTitle = "Saam Extraportuarios S.A.";
+}
+<!DOCTYPE html>
+<!--
+Template Name: Saam Extraportuarios Responsive Layout
+Version: 1.0
+Author: Franco Caamaño
+Contact:
+License: Saam Extraportuarios use only
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+    <meta charset="utf-8" />
+    <title>TARJA AEP</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <!-- BEGIN GLOBAL MANDATORY STYLES -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/custom/plugins/open-sans/open-sans.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/custom/plugins/font-awesome/css/font-awesome.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/custom/plugins/simple-line-icons/simple-line-icons.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/bootstrap/css/bootstrap.min.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/uniform/css/uniform.default.css")" />
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL STYLES -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/select2/select2.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/admin/pages/css/login-soft.css")" />
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN THEME STYLES -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/css/components.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/css/plugins.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/admin/layout/css/layout.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/admin/layout/css/themes/default.css")" />
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/admin/layout/css/custom.css")" />
+    <!-- END THEME STYLES -->
+    <!-- BEGIN CUSTOM STYLES -->
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/assets/global/plugins/bootstrap-toastr/toastr.min.css")" />
+    <!-- END CUSTOM STYLES -->
+    <link rel="shortcut icon" href="@Url.Content("~/assets/favicon.ico")" />
+
+    <style>
+        div.backstretch {
+            -webkit-filter: blur(5px);
+            -moz-filter: blur(5px);
+            -o-filter: blur(5px);
+            -ms-filter: blur(5px);
+            filter: blur(5px);
+            margin: -10px; /* Added to get rid of white blur borders */
+        }
+    </style>
+</head>
+<!-- END HEAD -->
+<!-- BEGIN BODY -->
+<body class="login">
+    <input type="hidden" value="@System.Configuration.ConfigurationManager.AppSettings["ambiente"]" id="hdnAmbiente" />
+    <!-- BEGIN LOGO -->
+    <div class="logo">
+        <img src="@Url.Content("~/assets/custom/images/saam_blanco.png")" alt="" height="70" />
+    </div>
+    <!-- END LOGO -->
+    <!-- BEGIN LOGIN -->
+    <div class="content">
+        <form id="FrmLogin">
+            <h3 class="form-title font-grey-cararra">Iniciar Sesión</h3>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Usuario</label>
+                <div class="input-icon">
+                    <i class="fa fa-user"></i>
+                    <input class="form-control placeholder-no-fix" type="text" placeholder="Usuario" id="txtUser" name="username" />
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="control-label visible-ie8 visible-ie9">Contraseña</label>
+                <div class="input-icon">
+                    <i class="fa fa-lock"></i>
+                    <input class="form-control placeholder-no-fix" type="password" placeholder="Contraseña" id="txtPassword" name="password" />
+                </div>
+            </div>
+            <div class="form-group text-center">
+                <a href="javascript:void(0)" onclick="ObtIniSes();" class="btn blue-steel btn-block" id="BtnLogin">
+                    Ingresar&nbsp;<span id="spnLoading" class="display-hide"><i class="fa fa-refresh fa-spin"></i></span>
+                </a>
+            </div>
+        </form>
+    </div>
+    <!-- END LOGIN -->
+    <!-- BEGIN COPYRIGHT -->
+    <div class="copyright">
+        @DateTime.Now.Year &copy; SAAM Extraportuarios - Tarja.
+    </div>
+    <!-- END COPYRIGHT -->
+    <!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- BEGIN CORE PLUGINS -->
+    <!--[if lt IE 9]>
+    <script src="@Url.Content("~/assets/global/plugins/respond.min.js")"></script>
+    <script src="@Url.Content("~/assets/global/plugins/excanvas.min.js")"></script>
+    <![endif]-->
+    <script src="@Url.Content("~/assets/global/plugins/jquery.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets/global/plugins/jquery-migrate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets/global/plugins/bootstrap/js/bootstrap.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets/global/plugins/jquery.blockui.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets/global/plugins/uniform/jquery.uniform.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets/global/plugins/jquery.cokie.min.js")" type="text/javascript"></script>
+    <!-- END CORE PLUGINS -->
+    <!-- BEGIN PAGE LEVEL PLUGINS -->
+    <script src="@Url.Content("~/assets/global/plugins/jquery-validation/js/jquery.validate.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets/global/plugins/backstretch/jquery.backstretch.min.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets//global/plugins/select2/select2.min.js")" type="text/javascript"></script>
+    <!-- END PAGE LEVEL PLUGINS -->
+    <!-- BEGIN PAGE LEVEL SCRIPTS -->
+    <script src="@Url.Content("~/assets/global/scripts/metronic.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets/admin/layout/scripts/layout.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets/admin/layout/scripts/demo.js")" type="text/javascript"></script>
+    <!-- END PAGE LEVEL SCRIPTS -->
+    <!-- BEGIN CUSTOM PLUGINS -->
+    <script type="text/javascript" src="@Url.Content("~/assets/global/plugins/bootstrap-toastr/toastr.min.js")"></script>
+    <!-- END CUSTOM PLUGINS -->
+    <!-- BEGIN SAAM PLUGINS -->
+    <script src="@Url.Content("~/assets/custom/scripts/SessionControl.js")" type="text/javascript"></script>
+    <script src="@Url.Content("~/assets/custom/scripts/Toastr.js")" type="text/javascript"></script>
+    @Scripts.Render("~/bundles/ClienteLogin")
+    <!-- END SAAM PLUGINS -->
+    <script>
+        jQuery(document).ready(function () {
+            Metronic.init(); // init metronic core components
+            Layout.init(); // init current layout
+            Demo.init(); // init background slide images
+            $.backstretch([
+                    '@Url.Content("~/assets/custom/images/login.jpg")'
+            ], {
+                fade: 1000,
+                duration: 8000
+            }
+            );
+        });
+    </script>
+    <!-- BEGIN NOTIFICATION SHOWING -->
+    @{
+        if (Session["Global:Toastr:Message"] != null && Session["Global:Toastr:Title"] != null && Session["Global:Toastr:Type"] != null)
+        {
+            var type = (Singleton.ToastrType)Session["Global:Toastr:Type"];
+            var title = Session["Global:Toastr:Title"].ToString();
+            var message = Session["Global:Toastr:Message"].ToString();
+
+            switch (type)
+            {
+                case Singleton.ToastrType.Error:
+                    <script>ShowError('@title', '@message')</script>
+                    break;
+                case Singleton.ToastrType.Information:
+                    <script>ShowInfo('@title', '@message')</script>
+                    break;
+                case Singleton.ToastrType.Success:
+                    <script>ShowSuccess('@title', '@message')</script>
+                    break;
+                case Singleton.ToastrType.Warning:
+                    <script>ShowWarning('@title', '@message')</script>
+                    break;
+            }
+
+            Session.Remove("Global:Toastr:Title");
+            Session.Remove("Global:Toastr:Message");
+            Session.Remove("Global:Toastr:Type");
+        }
+    }
+    <!-- END NOTIFICATION SHOWING -->
+    <!-- END JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
