@@ -1,1 +1,3 @@
 "# TarjaWeb" 
+Tarja web es una aplicación orientada a  los funcionarios AEP que deben  programar las  tarjas en sus distintos formatos de trabajo  tales como son los desconsolidado, consolidado, despacho . Además permite a los clientes registrados  poder revisar  el estado de sus tarjas , en caso de que esten cerradas podran descargar el informe tarja  en formato PDF , ahora bien si se requiere las fotografias estas estan dispuestas para ser descargadas . Ademas se incorporo  la visualización del video tarja  donde se podra ver  el proceso completo  que se realiza en el  proceso . 
+Tarja WEB esta  programada en  .net  con  sql server 2016 para  recorrer el código se puede utilizar  visual estudio. 
